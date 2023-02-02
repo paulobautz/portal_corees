@@ -1,6 +1,6 @@
 # CORE-SP
 
-Código oficial do Portal CORE-SP.
+Código oficial do Portal Core-SP, adaptado para o Core-ES
 
 ## Desenvolvimento
 
