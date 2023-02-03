@@ -356,7 +356,7 @@ class AgendamentoService implements AgendamentoServiceInterface {
         if($total >= 3)
             return [
                 'message' => '<i class="icon fa fa-ban"></i>Agendamento bloqueado por excesso de falta nos últimos 90 dias. 
-                Favor entrar em contato com o Core-SP para regularizar o agendamento.',
+                Favor entrar em contato com o Core-ES para regularizar o agendamento.',
                 'class' => 'alert-danger'
             ];
 

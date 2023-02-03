@@ -1,9 +1,9 @@
 <div class="clippers">
-  <a href="http://core-sp.implanta.net.br/portaltransparencia/#publico/inicio" target="_blank">
+  <a href="http://Core-ES.implanta.net.br/portaltransparencia/#publico/inicio" target="_blank">
     <div class="box-dois almost-white-bg mb-3">
       <div class="inside-box-dois inside-box-transparencia d-flex">
         <div class="align-self-center faleRow">
-          <img src="{{ asset('img/icon_transparencia.png') }}" alt="Transparência | Core-SP">
+          <img src="{{ asset('img/icon_transparencia.png') }}" alt="Transparência | Core-ES">
         </div>
         <div class="flex-one align-self-center pl-4">
           <h5 class="text-uppercase verde-transparencia">Acesso à informação</h5>
@@ -51,7 +51,7 @@
     <div class="box-dois azul-bg mb-3">
       <div class="inside-box-dois d-flex">
         <div class="align-self-center">
-          <img src="{{ asset('img/file.png') }}" class="inside-img" alt="Consulta de Ativos | Core-SP">
+          <img src="{{ asset('img/file.png') }}" class="inside-img" alt="Consulta de Ativos | Core-ES">
         </div>
         <div class="flex-one align-self-center pl-4">
           <h5 class="text-uppercase normal branco">consulta de situação</h5>
@@ -75,7 +75,7 @@
     <div class="box-dois azul-bg mb-3">
       <div class="inside-box-dois d-flex">
         <div class="align-self-center">
-          <img src="{{ asset('img/001-paper.png') }}" class="inside-img" alt="Simulador | Core-SP">
+          <img src="{{ asset('img/001-paper.png') }}" class="inside-img" alt="Simulador | Core-ES">
         </div>
         <div class="flex-one align-self-center pl-4">
           <h5 class="text-uppercase normal branco">simulador de valores</h5>

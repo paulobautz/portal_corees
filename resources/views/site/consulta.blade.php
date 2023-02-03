@@ -1,7 +1,7 @@
 @extends('site.layout.app', ['title' => 'Consulta de Situação'])
 
 @section('description')
-  <meta name="description" content="A Consulta de Situação do Core-SP é uma solução informatizada que permite verificar a situação do Representante Comercial junto ao Conselho." />
+  <meta name="description" content="A Consulta de Situação do Core-ES é uma solução informatizada que permite verificar a situação do Representante Comercial junto ao Conselho." />
 @endsection
 
 @section('content')
@@ -37,7 +37,7 @@
     <div class="row mt-2" id="conteudo-principal">
       <div class="col-lg-8 consulta-linha">
         <div class="row nomargin mb-3">
-          <p class="mb-2 light">A consulta de situação, novo serviço oferecido pelo Core-SP, é uma solução informatizada que permite verificar a situação do Representante Comercial junto ao Conselho.</p>
+          <p class="mb-2 light">A consulta de situação, novo serviço oferecido pelo Core-ES, é uma solução informatizada que permite verificar a situação do Representante Comercial junto ao Conselho.</p>
           <p class="light">Um recurso simples, ágil e moderno que visa contribuir para uma melhor administração do tempo de Representantes Comerciais e de seus contadores.</p>
           <p class="light mt-2">Ao consultar, os seus dados serão apenas utilizados para consulta, não sendo utilizados para outros fins além do serviço solicitado. Para mais informações, verifique a nossa <a href="/politica-de-privacidade"  target="_blank"><strong><u>Política de Privacidade</u></strong></a>.
         </p>
@@ -104,7 +104,7 @@
           <div class="alert alert-warning consulta-alert" role="alert">
             <h6>IMPORTANTE:</h6>
             <p class="mt-1 mb-1">O teor desta consulta é meramente informativo, não valendo como certidão.</p>
-            <p>Caso seja constatada qualquer divergência de dados, solicitamos a gentileza de entrar em contato conosco através do email atendimento@core-sp.org.br ou pelo telefone (11) 3243-5500.</p>
+            <p>Caso seja constatada qualquer divergência de dados, solicitamos a gentileza de entrar em contato conosco através do email atendimento@core-es.org.br ou pelo telefone (11) 3243-5500.</p>
           </div>
         </div>
       </div>

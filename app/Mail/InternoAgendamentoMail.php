@@ -42,7 +42,7 @@ class InternoAgendamentoMail extends Mailable
         $body.= $conteudo;
 
         $body .= '<p>';
-        $body .= 'Por favor, acesse o <a href="https://core-sp.org.br/admin" target="_blank">painel de administrador</a> do Portal CORE-SP para mais informações.';
+        $body .= 'Por favor, acesse o <a href="https://core-es.org.br/admin" target="_blank">painel de administrador</a> do Portal Core-ES para mais informações.';
         $body .= '</p>';
 
         return $body;
@@ -50,7 +50,7 @@ class InternoAgendamentoMail extends Mailable
 
     private function conteudoComDados()
     {
-        $body = '<p>Confira abaixo a lista de agendamentos solicitados pelo Portal CORE-SP hoje, <strong>'.$this->dia.':</strong></p>';
+        $body = '<p>Confira abaixo a lista de agendamentos solicitados pelo Portal Core-ES hoje, <strong>'.$this->dia.':</strong></p>';
         $body .= '<table border="1" cellspacing="0" cellpadding="6">';
         $body .= '<thead>';
         $body .= '<tr>';

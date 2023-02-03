@@ -130,7 +130,7 @@ class Kernel extends ConsoleKernel
                     });
                 if($cedulas->isNotEmpty()) {
                     $body = '<h3><i>(Mensagem Programada)</i></h3>';
-                    $body .= '<p>Confira abaixo a lista de cédulas solicitadas pelo Portal CORE-SP ontem, <strong>'.Helper::onlyDate($ontem).':</strong></p>';
+                    $body .= '<p>Confira abaixo a lista de cédulas solicitadas pelo Portal Core-ES ontem, <strong>'.Helper::onlyDate($ontem).':</strong></p>';
                     $body .= '<table border="1" cellspacing="0" cellpadding="6">';
                     $body .= '<thead>';
                     $body .= '<tr>';
@@ -150,7 +150,7 @@ class Kernel extends ConsoleKernel
                     $body .= '</tbody>';
                     $body .= '</table>';
                     $body .= '<p>';
-                    $body .= 'Por favor, acesse o <a href="https://core-sp.org.br/admin" target="_blank">painel de administrador</a> do Portal CORE-SP para mais informações.';
+                    $body .= 'Por favor, acesse o <a href="https://core-es.org.br/admin" target="_blank">painel de administrador</a> do Portal Core-ES para mais informações.';
                     $body .= '</p>';
                     $regional = 'Seccionais';
                     try {

@@ -36,7 +36,7 @@
                     <p class="alert alert-danger">{{ Session::get('message') }}</p>
                 @endif
                 <p>Seja bem-vindo(a).</p>
-                <p>A Área Restrita do Portal do Core-SP é destinada exclusivamente aos Representantes Comerciais.</p>
+                <p>A Área Restrita do Portal do Core-ES é destinada exclusivamente aos Representantes Comerciais.</p>
                 <p>Preencha as informações abaixo e realize o seu cadastro.</p>
                 <p class="pb-0"><strong>IMPORTANTE:</strong> O email informado deve ser <strong>o mesmo cadastrado junto ao Conselho no momento do registro inicial.</strong></p>
                 <hr>
@@ -60,7 +60,7 @@
                             @endif
                         </div>
                         <div class="col-sm mb-2-576">
-                            <label for="registro_core">Registro no Core-SP *</label>
+                            <label for="registro_core">Registro no Core-ES *</label>
                             <input
                                 type="text"
                                 name="registro_core"
@@ -128,10 +128,10 @@
                         />
                         <p class="d-inline ml-1 lh-28">
                             <!-- <small class="light lh-28">
-                                Li e concordo com os <a class="azul-obrigatorio" id="link-termo-de-uso" data-toggle="modal" data-target="#modal-termo-de-uso">Termos de Uso</a> da Área Restrita do Representante do Core-SP.
+                                Li e concordo com os <a class="azul-obrigatorio" id="link-termo-de-uso" data-toggle="modal" data-target="#modal-termo-de-uso">Termos de Uso</a> da Área Restrita do Representante do Core-ES.
                             </small> -->
                             <small class="light lh-28">
-                                Li e concordo com os <a class="text-primary" href="/arquivos/Termo_de_Uso_e_Consentimento_Area_Restrita_rev.pdf" target="_blank">Termos de Uso</a> da Área Restrita do Representante do Core-SP.
+                                Li e concordo com os <a class="text-primary" href="/arquivos/Termo_de_Uso_e_Consentimento_Area_Restrita_rev.pdf" target="_blank">Termos de Uso</a> da Área Restrita do Representante do Core-ES.
                             </small>
                         </p>
                         @if($errors->has('checkbox-tdu'))

@@ -11,7 +11,7 @@ $factory->define(Representante::class, function (Faker $faker) {
         'registro_core' => '0000000001', 
         'ass_id' => '000001', 
         'nome' => 'RC Teste 1', 
-        'email' => 'desenvolvimento@core-sp.org.br', 
+        'email' => 'desenvolvimento@core-es.org.br', 
         'password' => bcrypt('teste102030'), 
         'verify_token' => null, 
         'aceite' => 1, 

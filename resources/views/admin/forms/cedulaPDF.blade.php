@@ -132,7 +132,7 @@
       NO ESTADO DE SÃO PAULO
     </p>
     <p id="terceiro-p">
-      CORE-SP
+      Core-ES
     </p>
   </div>
   <!-- fim do cabeçalho do doc -->
@@ -153,7 +153,7 @@
       Eu, {{ $resultado->representante->tipoPessoa() == 'PJ' ? $resultado->nome : $resultado->representante->nome }}, portador(a) do RG {{ mascaraRG($resultado->rg) }}, do CPF
       {{ $resultado->representante->tipoPessoa() == 'PJ' ? formataCpfCnpj($resultado->cpf) : $resultado->representante->cpf_cnpj }} e do registro CORE {{ $resultado->representante->registro_core }}, venho requerer,
       pelo presente, o envio, via postal, por meio do serviço de remessa de documentos dos Correios, de minha cédula de identidade profissional, com 
-      fundamento na Resolução nº 1.186/2021 - CORE-SP, declarando estar de acordo com a Resolução em referência.
+      fundamento na Resolução nº 1.186/2021 - Core-ES, declarando estar de acordo com a Resolução em referência.
       </p>
     <p class="texto">
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -170,7 +170,7 @@
       São Paulo, {{ now()->isoFormat('D') }} de {{ ucFirst(now()->isoFormat('MMMM')) }} de {{ now()->isoFormat('G') }}.
     </p>
       <p id="assinatura">
-        COORDENADORIA DE ATENDIMENTO CORE-SP
+        COORDENADORIA DE ATENDIMENTO Core-ES
       </p>
   </div>
   <!-- fim do conteúdo do doc -->
@@ -181,7 +181,7 @@
   <div id="footer">
     <hr id="hr-rodape">
     <p>
-      Sede: Av. Brigadeiro Luis Antonio, 613 - 5º andar - Bela Vista - São Paulo - 01317-000 - (11) 3243 5500 - core@core-sp.org.br - www.core-sp.org.br
+      Sede: Av. Brigadeiro Luis Antonio, 613 - 5º andar - Bela Vista - São Paulo - 01317-000 - (11) 3243 5500 - core@core-es.org.br - www.core-es.org.br
     </p>
     <p>
       Seccionais: Araçatuba (18) 3625 2080; Campinas (19) 3236 8867; Ribeirão Preto (16) 3964 6636; São José do Rio Preto (17) 3211 9953;

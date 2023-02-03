@@ -9,10 +9,10 @@
         @if (View::hasSection('description'))
           @yield('description')
         @else
-          <meta name="description" content="O Core-SP é responsável pela consulta, orientação, disciplina e fiscalização do exercício da profissão de Representação Comercial no estado de São Paulo.">
+          <meta name="description" content="O Core-ES é responsável pela consulta, orientação, disciplina e fiscalização do exercício da profissão de Representação Comercial no estado de São Paulo.">
         @endif
 
-        <title>Core-SP — {{ $title }}</title>
+        <title>Core-ES — {{ $title }}</title>
         <link rel="icon" href="{{ asset('img/favicon.ico') }}" type="image/ico" />
 
         <link type="text/css" href="{{ asset('/css/app.css') }}" rel="stylesheet">
@@ -22,7 +22,7 @@
 
         @yield('meta')
 
-        @if(strstr(request()->getHttpHost(), 'core-sp.org.br'))
+        @if(strstr(request()->getHttpHost(), 'core-es.org.br'))
           <!-- Global site tag (gtag.js) - Google Analytics -->
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141375220-1"></script>
           <script>
@@ -53,12 +53,12 @@
         <div class="container">
           <div class="row header-margin">
             <div class="col-lg-4 col-md-6 text-left center-768">
-                <a href="/"><img src="{{ asset('img/core_selo.png') }}" alt="CORE-SP" id="logo-header" /></a>
+                <a href="/"><img src="{{ asset('img/core_selo.png') }}" alt="Core-ES" id="logo-header" /></a>
             </div>
             <div class="col-lg-4 col-md-6 center-768 aai hide-768">
               <div class="d-block setembro">
                 <h3><a href="/servicos-atendimento-ao-rc" class="cinza-claro">Atendimento on-line</a></h3>
-                <p class="light"><a href="/servicos-atendimento-ao-rc" class="cinza-claro"><small>Clique aqui e tenha acesso aos principais<br>serviços pelo Setor de Atendimento do Core-SP.</small></a></p>
+                <p class="light"><a href="/servicos-atendimento-ao-rc" class="cinza-claro"><small>Clique aqui e tenha acesso aos principais<br>serviços pelo Setor de Atendimento do Core-ES.</small></a></p>
               </div>
             </div>
             <div class="col-lg-4 align-self-end mt-15-992">
@@ -125,7 +125,7 @@
                     <a href="/" class="nav-link">Home</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownCore" role="button" data-toggle="dropdown">CORE-SP</a>
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownCore" role="button" data-toggle="dropdown">Core-ES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownCore">
                       <a href="/concursos" class="dropdown-item">Concursos</a>
                       <a href="/conselho" class="dropdown-item">Conselho</a>
@@ -136,10 +136,10 @@
                     </div>
                   </li>
                   <li class="nav-item">
-                    <a href="http://core-sp.implanta.net.br/portaltransparencia/#publico/inicio" class="nav-link" target="_blank">Transparência</a>
+                    <a href="http://core-es.implanta.net.br/portaltransparencia/#publico/inicio" class="nav-link" target="_blank">Transparência</a>
                   </li>
                   <li class="nav-item">
-                    <a href="/prestacao-de-contas-do-core-sp" class="nav-link">Prestação de Contas</a>
+                    <a href="/prestacao-de-contas-do-core-es" class="nav-link">Prestação de Contas</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownFiscal" role="button" data-toggle="dropdown">Fiscalização</a>
@@ -147,7 +147,7 @@
                       <a href="{{ route('fiscalizacao.mapa') }}" class="dropdown-item">Mapa da fiscalização</a>
                       <a href="{{ route('fiscalizacao.acoesfiscalizacao') }}" class="dropdown-item">Ações da fiscalização</a>
                       <a href="{{ route('fiscalizacao.espacoContador') }}" class="dropdown-item">Espaço do Contador</a>
-                      <a href="http://core-sp.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank" class="dropdown-item">Denuncie</a>
+                      <a href="http://core-es.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank" class="dropdown-item">Denuncie</a>
                       <a href="/sobre-a-fiscalizacao" class="dropdown-item bb-0">Sobre o departamento</a>
                     </div>
                   </li>
@@ -211,7 +211,7 @@
                   <div class="d-flex">
                     <div class="flex-one text-center">
                       <h5 class="d-inline-block pr-3 cinza-claro"><strong>Dúvidas frequentes</strong></h5>
-                      <p class="d-inline-block cinza-claro">Clique aqui e tenha acesso aos principais serviços <br class="show-768">pelo Setor de Atendimento do Core-SP.</p>
+                      <p class="d-inline-block cinza-claro">Clique aqui e tenha acesso aos principais serviços <br class="show-768">pelo Setor de Atendimento do Core-ES.</p>
                     </div>
                   </div>
                 </div>
@@ -223,7 +223,7 @@
       <header id="fixed-menu" class="pb-2">
         <div class="container">
           <a href="/">
-            <img src="{{ asset('img/brasao.png') }}" alt="Core-SP" />
+            <img src="{{ asset('img/brasao.png') }}" alt="Core-ES" />
           </a>
           <div class="row" id="append-menu">
             
@@ -284,7 +284,7 @@
               </div>
               <p class="branco mb-1">
                 <strong>E-mail:</strong>
-                <br />atendimento@core-sp.org.br
+                <br />atendimento@core-es.org.br
               </p>
               <p class="branco">
                 <strong>Telefone:</strong>
@@ -321,8 +321,8 @@
                 <h5 class="branco">Transparência</h5>
               </div>
               <div class="w-75">
-                <a href="http://core-sp.implanta.net.br/portaltransparencia/#publico/inicio" target="_blank">
-                  <img src="{{ asset('img/icon_transparencia.png') }}" alt="Transparência | Core-SP" class="d-inline transparencia-footer">&nbsp;&nbsp;<p class="d-inline branco lh-32">Acesso à informação</p>
+                <a href="http://core-es.implanta.net.br/portaltransparencia/#publico/inicio" target="_blank">
+                  <img src="{{ asset('img/icon_transparencia.png') }}" alt="Transparência | Core-ES" class="d-inline transparencia-footer">&nbsp;&nbsp;<p class="d-inline branco lh-32">Acesso à informação</p>
                 </a>
               </div>
               <div class="footer-title w-75 mb-3 mt-4">
@@ -374,7 +374,7 @@
                       </div>
                       @endif
                   </div>
-                  <p class="branco mb-2 text-justify textoTermo">Você pode cancelar a sua inscrição a qualquer momento. Suas informações serão armazenadas dentro dos mais rígidos critérios de segurança no banco de dados do CORE-SP e serão tratadas de acordo com a Lei Geral de Proteção de Dados Pessoais (LGPD)</p>
+                  <p class="branco mb-2 text-justify textoTermo">Você pode cancelar a sua inscrição a qualquer momento. Suas informações serão armazenadas dentro dos mais rígidos critérios de segurança no banco de dados do Core-ES e serão tratadas de acordo com a Lei Geral de Proteção de Dados Pessoais (LGPD)</p>
                   <div class="form-check">
                     <input type="checkbox"
                       name="termo"
@@ -383,7 +383,7 @@
                       {{ old('termo') ? 'checked' : '' }}
                       required
                     /> 
-                    <label for="termo" class="branco textoTermo text-justify">Li e concordo com o <a href="{{route('termo.consentimento.pdf')}}" target="_blank"><u>Termo de Consentimento</u></a> de uso de dados, e aceito receber boletins informativos a respeito de parcerias e serviços do CORE-SP.
+                    <label for="termo" class="branco textoTermo text-justify">Li e concordo com o <a href="{{route('termo.consentimento.pdf')}}" target="_blank"><u>Termo de Consentimento</u></a> de uso de dados, e aceito receber boletins informativos a respeito de parcerias e serviços do Core-ES.
                     </label>
                     @if($errors->has('termo'))
                     <div class="invalid-feedback">

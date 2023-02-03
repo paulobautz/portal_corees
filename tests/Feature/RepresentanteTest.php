@@ -273,9 +273,9 @@ class RepresentanteTest extends TestCase
     {
         // os emails devem ser iguais ao do GerentiMock
         $representante = factory('App\Representante')->create([
-            'email' => 'desenvolvimento@core-sp.org.br'
+            'email' => 'desenvolvimento@core-es.org.br'
         ]);
-        $emailNovo = 'desenvolvimento2@core-sp.org.br';
+        $emailNovo = 'desenvolvimento2@core-es.org.br';
 
         $this->get(route('representante.email.reset.view'))->assertOk();
 
@@ -353,7 +353,7 @@ class RepresentanteTest extends TestCase
             ->assertRedirect(route('representante.cadastro'));
             
         // Checa se mensagem do erro foi retornada
-        $this->assertEquals(session('message'), 'O cadastro informado não está corretamente inscrito no Core-SP. Por favor, verifique as informações inseridas.');
+        $this->assertEquals(session('message'), 'O cadastro informado não está corretamente inscrito no Core-ES. Por favor, verifique as informações inseridas.');
     }
 
     /** @test 

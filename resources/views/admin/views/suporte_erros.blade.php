@@ -1,5 +1,5 @@
 <div class="card-body">
-    @if(auth()->user()->isAdmin() && auth()->user()->email == 'desenvolvimento@core-sp.org.br')
+    @if(auth()->user()->isAdmin() && auth()->user()->email == 'desenvolvimento@core-es.org.br')
     <div class="row mb-4">
         <div class="col">
             <h5>Área de upload e download é restrita ao desenvolvedor, que será responsável para atualizar o arquivo</h5>

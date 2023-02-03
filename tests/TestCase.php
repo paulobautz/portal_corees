@@ -60,7 +60,7 @@ abstract class TestCase extends BaseTestCase
 
         $user = factory('App\User')->create([
             'idperfil' => $perfilDeAdmin->idperfil,
-            'email' => isset($email) ? $email : 'email_fake_admin@core-sp.org.br'
+            'email' => isset($email) ? $email : 'email_fake_admin@core-es.org.br'
         ]);
 
         $this->actingAs($user);

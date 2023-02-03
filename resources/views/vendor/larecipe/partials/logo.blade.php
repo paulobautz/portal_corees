@@ -1,1 +1,1 @@
-<img src="{{asset('img/brasao.png')}}" alt="CORE-SP">
+<img src="{{asset('img/brasao.png')}}" alt="Core-ES">

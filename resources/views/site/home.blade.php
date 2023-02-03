@@ -1,7 +1,7 @@
 @extends('site.layout.app', ['title' => 'Conselho Regional dos Representantes Comerciais do Estado de São Paulo'])
 
 @section('description')
-  <meta name="description" content="O Core-SP é responsável pela consulta, orientação, disciplina e fiscalização do exercício da profissão de Representação Comercial no estado de São Paulo.">
+  <meta name="description" content="O Core-ES é responsável pela consulta, orientação, disciplina e fiscalização do exercício da profissão de Representação Comercial no estado de São Paulo.">
 @endsection
 
 @section('content')
@@ -35,8 +35,8 @@
             <div class="carousel-item h-100">
             @endif
               <a href="{{ $img->link }}" target="{{ $img->target }}">
-                <img class="w-100 hide-576" src="{{ asset($img->url) }}" alt="Core-SP | Conselho Regional dos Representantes Comercias do Estado de São Paulo" />
-                <img class="w-100 show-576" src="{{ asset($img->url_mobile) }}" alt="Core-SP | Conselho Regional dos Representantes Comercias do Estado de São Paulo" />
+                <img class="w-100 hide-576" src="{{ asset($img->url) }}" alt="Core-ES | Conselho Regional dos Representantes Comercias do Estado de São Paulo" />
+                <img class="w-100 show-576" src="{{ asset($img->url_mobile) }}" alt="Core-ES | Conselho Regional dos Representantes Comercias do Estado de São Paulo" />
               </a>
             </div>
           @endif
@@ -97,7 +97,7 @@
       <div class="col-lg-3 col-sm-6 pb-15">
         <div class="box text-center azul-escuro-bg">
           <div class="inside-box">
-            <img src="{{ asset('img/padlock.png') }}" class="inside-img" alt="Área restrita do Representante | Core-SP" />
+            <img src="{{ asset('img/padlock.png') }}" class="inside-img" alt="Área restrita do Representante | Core-ES" />
             <h3 class="text-uppercase mt-3 branco light h3-box mb-3">Área restrita<br class="hide-992" /> do Representante</h3>
             <a href="/representante/login" class="d-block h-100">
               <button class="btn-box azul-escuro">Acessar</button>
@@ -112,7 +112,7 @@
         <a href="/consulta-de-situacao" class="d-block">
           <div class="box text-center azul-bg">
             <div class="inside-box">
-              <img src="{{ asset('img/file.png') }}" class="inside-img alt="Consulta de Ativos | Core-SP">
+              <img src="{{ asset('img/file.png') }}" class="inside-img alt="Consulta de Ativos | Core-ES">
               <h3 class="text-uppercase mt-3 branco light h3-box mb-3">Consulta<br class="hide-992" /> de situação</h3>
               <button class="btn-box azul">Consultar</button>
             </div>
@@ -122,7 +122,7 @@
       <div class="col-lg-3 col-sm-6 pb-15">
         <div class="box text-center azul-escuro-bg">
           <div class="inside-box">
-            <img src="{{ asset('img/001-work.png') }}" class="inside-img" alt="Balcão de Oportunidades | Core-SP" />
+            <img src="{{ asset('img/001-work.png') }}" class="inside-img" alt="Balcão de Oportunidades | Core-ES" />
             <h3 class="text-uppercase mt-3 branco light h3-box mb-3">Balcão de<br class="hide-992" /> Oportunidades</h3>
             <a href="/balcao-de-oportunidades" class="d-inline h-100">
               <button class="btn-box azul-escuro">Acessar</button>
@@ -137,7 +137,7 @@
         <a href="/anuidade-ano-vigente" class="d-block h-100">
           <div class="box text-center azul-bg">
             <div class="inside-box">
-              <img src="{{ asset('img/printer.png') }}" class="inside-img" alt="Anuidade do ano vigente | Core-SP" />
+              <img src="{{ asset('img/printer.png') }}" class="inside-img" alt="Anuidade do ano vigente | Core-ES" />
               <h3 class="text-uppercase mt-3 branco light h3-box mb-3">Boleto<br class="hide-992" /> anuidade {{ date('Y') }}</h3>
               <button class="btn-box azul">Acessar</button>
             </div>
@@ -148,7 +148,7 @@
         <a href="/simulador" class="d-block h-100">
           <div class="box text-center azul-bg">
             <div class="inside-box">
-              <img src="{{ asset('img/001-paper.png') }}" class="inside-img" alt="Simulador | Core-SP">
+              <img src="{{ asset('img/001-paper.png') }}" class="inside-img" alt="Simulador | Core-ES">
               <h3 class="text-uppercase mt-3 branco light h3-box mb-3">Simulador de<br class="hide-992" /> valores</h3>
               <button class="btn-box azul">Simular</button>
             </div>
@@ -158,7 +158,7 @@
       <div class="col-lg-3 col-sm-6 pb-15">
         <div class="box text-center azul-escuro-bg">
           <div class="inside-box">
-            <img src="{{ asset('img/appointment.png') }}" class="inside-img" alt="Agendamento | Core-SP" />
+            <img src="{{ asset('img/appointment.png') }}" class="inside-img" alt="Agendamento | Core-ES" />
             <h3 class="text-uppercase mt-3 branco light h3-box mb-3">Agendamento<br class="hide-992" /> de Atendimento</h3>
             <a href="/agendamento" class="d-inline h-100">
               <button class="btn-box azul-escuro">Agendar</button>
@@ -173,7 +173,7 @@
         <a href="/cartilha-do-representante" class="d-block h-100">
           <div class="box text-center azul-bg">
             <div class="inside-box">
-              <img src="{{ asset('img/open-book.png') }}" class="inside-img" alt="Cartilha do Representante | Core-SP" />
+              <img src="{{ asset('img/open-book.png') }}" class="inside-img" alt="Cartilha do Representante | Core-ES" />
               <h3 class="text-uppercase mt-3 branco light h3-box mb-3">Cartilha do<br class="hide-992" /> Representante</h3>
               <button class="btn-box azul">Visualizar</button>
             </div>
@@ -184,7 +184,7 @@
         <!-- <a href="/noticias/anuidade-2021-taxas-e-emolumentos" class="d-block h-100"> -->
           <div class="box text-center azul-escuro-bg">
             <div class="inside-box">
-              <img src="{{ asset('img/003-bill.png') }}" class="inside-img" alt="Anuidade 2019 | Core-SP" />
+              <img src="{{ asset('img/003-bill.png') }}" class="inside-img" alt="Anuidade 2019 | Core-ES" />
               <h3 class="text-uppercase mt-3 branco light h3-box mb-3">Anuidade 2021<br class="hide-992" /> taxas e emolumentos</h3>
               <!-- <button href="#" class="btn-box azul-escuro">ACESSAR</button> -->
             </div>
@@ -217,7 +217,7 @@
       </div>
 
       <div class="col-lg-3 col-sm-6 pb-15">
-        <a href="https://core-sp.implanta.net.br/portaltransparencia/#publico/inicio" class="d-block h-100">
+        <a href="https://Core-ES.implanta.net.br/portaltransparencia/#publico/inicio" class="d-block h-100">
           <div class="box text-center azul-bg">
             <div class="inside-box">
               <img src="{{ asset('img/icone-portal-da-transparencia.png') }}" class="inside-img" alt="Portal da transparência" />
@@ -229,7 +229,7 @@
       </div>
 
       <div class="col-lg-3 col-sm-6 pb-15">
-        <a href="https://core-sp.implanta.net.br/portaltransparencia/#OUV/Home" class="d-block h-100">
+        <a href="https://Core-ES.implanta.net.br/portaltransparencia/#OUV/Home" class="d-block h-100">
           <div class="box text-center azul-escuro-bg">
             <div class="inside-box">
               <img src="{{ asset('img/icone-denuncie.png') }}" class="inside-img" alt="Exercício ilegal da profissão" />
@@ -241,7 +241,7 @@
       </div>
 
       <div class="col-lg-3 col-sm-6 pb-15">
-        <a href="/noticias/core-sp-e-a-protecao-de-dados-pessoais" class="d-block h-100">
+        <a href="/noticias/Core-ES-e-a-protecao-de-dados-pessoais" class="d-block h-100">
           <div class="box text-center azul-bg">
             <div class="inside-box">
               <img src="{{ asset('img/icone-termo.png') }}" class="inside-img" alt="Termo de Consentimento" />
@@ -263,7 +263,7 @@
         <div class="beneficios-box row nomargin">
           <div class="col-lg-7 beneficios-txt center-992">
             <h2 class="stronger text-white text-uppercase">Programa de Incentivos</h2>
-            <p class="text-white light">O Core-SP traz benefícios diferenciados para Representantes Comerciais.</p>
+            <p class="text-white light">O Core-ES traz benefícios diferenciados para Representantes Comerciais.</p>
             <p class="text-white light">Faça parte do Grupo do WhatsApp e receba todos os dias os benefícios disponíveis.</p>
             <div>
               <a href="/programa-de-incentivos" class="btn-beneficios">saiba mais</a>
@@ -271,7 +271,7 @@
             </div>
           </div>
           <div class="col-lg-5 hide-992">
-            <img class="lazy" data-src="{{ asset('img/arte-capa004.png') }}" id="computer" alt="Programa de Benefícios | Core-SP" />
+            <img class="lazy" data-src="{{ asset('img/arte-capa004.png') }}" id="computer" alt="Programa de Benefícios | Core-ES" />
           </div>
         </div>
       </div>
@@ -297,14 +297,14 @@
         <div class="home-title">
           <blockquote>
             <i></i>
-            <h2 class="pr-3 ml-1">Fale com o CORE-SP</h2>
+            <h2 class="pr-3 ml-1">Fale com o Core-ES</h2>
           </blockquote>
         </div>
         <div class="row">
           <div class="col-lg-6 faleSingle">
             <div class="row nomargin">
               <div class="align-self-center">
-                <img src="{{ asset('img/the-phone-icon.png') }}" class="inside-img" alt="Atendimento | Core-SP">
+                <img src="{{ asset('img/the-phone-icon.png') }}" class="inside-img" alt="Atendimento | Core-ES">
               </div>
               <div class="flex-one fale-txt align-self-center">
                 <h5 class="normal">Atendimento<br class="hide-992" /> (11) 3243-5500</h5>
@@ -312,10 +312,10 @@
             </div>
           </div>
           <div class="col-lg-6 faleSingle">
-            <a href="http://core-sp.implanta.net.br/portaltransparencia/#publico/inicio" target="_blank">
+            <a href="http://Core-ES.implanta.net.br/portaltransparencia/#publico/inicio" target="_blank">
               <div class="row nomargin">
                 <div class="align-self-center">
-                  <img src="{{ asset('img/icon_transparencia.png') }}" alt="Transparência | Core-SP">
+                  <img src="{{ asset('img/icon_transparencia.png') }}" alt="Transparência | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
                   <h5 class="normal">Acesso à<br class="hide-992" /> informação</h5>
@@ -327,7 +327,7 @@
         <div class="home-title mt-4">
           <blockquote>
             <i></i>
-            <h2 class="pr-3 ml-1">CORE-SP nas Mídias Sociais</h2>
+            <h2 class="pr-3 ml-1">Core-ES nas Mídias Sociais</h2>
           </blockquote>
         </div>
         <div class="row">
@@ -335,7 +335,7 @@
             <a href="https://t.me/+xrSNaf5S10oxZGE5" target="_blank">
               <div class="row nomargin">
                 <div class="align-self-center">
-                  <img src="{{ asset('img/icone-telegram.png') }}" class="inside-img" alt="Telegram | Core-SP">
+                  <img src="{{ asset('img/icone-telegram.png') }}" class="inside-img" alt="Telegram | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
                   <h5 class="normal">Faça parte do nosso grupo no Telegram<br class="hide-992" /></h5>
@@ -347,7 +347,7 @@
             <a href="https://www.youtube.com/channel/UCOT_xwrQrpl_uu8MFl_EzWQ" target="_blank">
               <div class="row nomargin">
                 <div class="align-self-center">
-                  <img src="{{ asset('img/the-youtube-icon.png') }}" class="inside-img" alt="YouTube | Core-SP">
+                  <img src="{{ asset('img/the-youtube-icon.png') }}" class="inside-img" alt="YouTube | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
                   <h5 class="normal">Nosso canal<br class="hide-992" /> no YouTube</h5>
@@ -359,7 +359,7 @@
             <a href="https://www.instagram.com/coresaopaulo/?hl=pt-br" target="_blank">
               <div class="row nomargin">
                 <div class="align-self-center">
-                  <img src="{{ asset('img/the-instagram-icon.png') }}" class="inside-img" alt="Instagram | Core-SP">
+                  <img src="{{ asset('img/the-instagram-icon.png') }}" class="inside-img" alt="Instagram | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
                   <h5 class="normal">Siga-nos no<br class="hide-992" /> Instagram</h5>
@@ -371,7 +371,7 @@
             <a href="https://www.linkedin.com/company/core-saopaulo">
               <div class="row nomargin">
                 <div class="align-self-center">
-                  <img src="{{ asset('img/the-linkedin-logo.png') }}" class="inside-img" alt="LinkedIn | Core-SP">
+                  <img src="{{ asset('img/the-linkedin-logo.png') }}" class="inside-img" alt="LinkedIn | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
                   <h5 class="normal">Siga-nos no<br class="hide-992" /> LinkedIn</h5>
@@ -413,33 +413,33 @@
         </div>
         <div class="row">
           <div class="col-sm-8">
-            <a href="http://core-sp.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
-              <img class="lazy" data-src="{{ asset('img/computer.png') }}" alt="E-OUV | Core-SP" />
+            <a href="http://Core-ES.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
+              <img class="lazy" data-src="{{ asset('img/computer.png') }}" alt="E-OUV | Core-ES" />
             </a>
           </div>
           <div class="col-sm-4 hide-576 eouv-imgs align-self-center pl-3 center-992">
             <div class="m-auto pb-3">
-              <a href="http://core-sp.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
-                <img src="{{ asset('img/ie-1.png') }}" class="azul-bg" data-toggle="tooltip" title="Fale Conosco" alt="Fale Conosco | Core-SP" />
+              <a href="http://Core-ES.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
+                <img src="{{ asset('img/ie-1.png') }}" class="azul-bg" data-toggle="tooltip" title="Fale Conosco" alt="Fale Conosco | Core-ES" />
               </a>
-              <a href="http://core-sp.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
-                <img src="{{ asset('img/ie-2.png') }}" class="azul-escuro-bg" data-toogle="tooltip" title="Ouvidoria" alt="Ouvidoria | Core-SP" />
+              <a href="http://Core-ES.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
+                <img src="{{ asset('img/ie-2.png') }}" class="azul-escuro-bg" data-toogle="tooltip" title="Ouvidoria" alt="Ouvidoria | Core-ES" />
               </a>
             </div>
             <div class="m-auto pb-3">
-              <a href="http://core-sp.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
-                <img src="{{ asset('img/ie-3.png') }}" class="verde-escuro-bg" data-toogle="tooltip" title="Elogios" alt="Elogios | Core-SP" />
+              <a href="http://Core-ES.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
+                <img src="{{ asset('img/ie-3.png') }}" class="verde-escuro-bg" data-toogle="tooltip" title="Elogios" alt="Elogios | Core-ES" />
               </a>
-              <a href="http://core-sp.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
-                <img src="{{ asset('img/ie-4.png') }}" class="azul-bg" data-toogle="tooltip" title="Sugestões" alt="Sugestões | Core-SP" />
+              <a href="http://Core-ES.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
+                <img src="{{ asset('img/ie-4.png') }}" class="azul-bg" data-toogle="tooltip" title="Sugestões" alt="Sugestões | Core-ES" />
               </a>
             </div>
             <div class="m-auto">
-              <a href="http://core-sp.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
-                <img src="{{ asset('img/ie-5.png') }}" class="azul-escuro-bg" data-toogle="tooltip" title="Reclamações" alt="Reclamações | Core-SP" />
+              <a href="http://Core-ES.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
+                <img src="{{ asset('img/ie-5.png') }}" class="azul-escuro-bg" data-toogle="tooltip" title="Reclamações" alt="Reclamações | Core-ES" />
               </a>
-              <a href="http://core-sp.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
-                <img src="{{ asset('img/ie-6.png') }}" class="verde-escuro-bg" data-toogle="tooltip" title="Dúvidas" alt="Dúvidas | Core-SP" />
+              <a href="http://Core-ES.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank">
+                <img src="{{ asset('img/ie-6.png') }}" class="verde-escuro-bg" data-toogle="tooltip" title="Dúvidas" alt="Dúvidas | Core-ES" />
               </a>
             </div>
           </div>
@@ -454,14 +454,14 @@
         </div>
         <div id="calendario" class="row">
           <div class="col-sm-8">
-            <a href="/calendario-oficial-core-sp">
-              <img class="lazy" data-src="{{ asset('img/arte-calendario-2023.png') }}" alt="Calendário | Core-SP" />
+            <a href="/calendario-oficial-Core-ES">
+              <img class="lazy" data-src="{{ asset('img/arte-calendario-2023.png') }}" alt="Calendário | Core-ES" />
             </a>
           </div>
           <div class="col-sm-4 hide-576 align-self-center text-right pr-4">
             <div class="calendario-txt">
               <p class="preto">Confira o calendário completo de<br>atendimento e expediente <br>de sua região.</p>
-              <a href="/calendario-oficial-core-sp" class="btn-calendario mt-4">
+              <a href="/calendario-oficial-Core-ES" class="btn-calendario mt-4">
                 <h4 class="normal">confira</h4>
               </a>
             </div>

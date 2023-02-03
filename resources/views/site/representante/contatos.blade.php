@@ -12,7 +12,7 @@
     <div class="conteudo-txt-mini light">
         <h4 class="pt-1 pb-1">Contatos</h4>
         <div class="linha-lg-mini mb-3"></div>
-        <p>Se necessário, adicione um novo contato, para melhor comunicação com o Core-SP.</p>
+        <p>Se necessário, adicione um novo contato, para melhor comunicação com o Core-ES.</p>
         <div class="d-block mt-2 mb-3">
             <a href="{{ route('representante.inserir-ou-alterar-contato.view') }}" class="btn btn-primary link-nostyle branco">Inserir contato</a>
         </div>

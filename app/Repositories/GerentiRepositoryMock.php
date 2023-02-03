@@ -18,7 +18,7 @@ class GerentiRepositoryMock implements GerentiRepositoryInterface{
                 "REGISTRONUM" => "0000000001", 
                 "ASS_ID" => "000001", 
                 "NOME" => "RC Teste 1", 
-                "EMAILS" => "desenvolvimento@core-sp.org.br;desenvolvimento2@core-sp.org.br"
+                "EMAILS" => "desenvolvimento@core-es.org.br;desenvolvimento2@core-es.org.br"
             ];
         }
         // RC Teste 2 (PJ)
@@ -28,7 +28,7 @@ class GerentiRepositoryMock implements GerentiRepositoryInterface{
                 "REGISTRONUM" => "0000000002", 
                 "ASS_ID" => "000002", 
                 "NOME" => "RC Teste 2", 
-                "EMAILS" => "desenvolvimento@core-sp.org.br"
+                "EMAILS" => "desenvolvimento@core-es.org.br"
             ];
         }
         else {
@@ -41,7 +41,7 @@ class GerentiRepositoryMock implements GerentiRepositoryInterface{
         $verificaEmail = explode(';', $resultado['EMAILS']);
 
         if($resultado['SITUACAO'] !== 'Ativo')
-            return ['Error' => 'O cadastro informado não está corretamente inscrito no Core-SP. Por favor, verifique as informações inseridas.'];
+            return ['Error' => 'O cadastro informado não está corretamente inscrito no Core-ES. Por favor, verifique as informações inseridas.'];
         elseif(!in_array($email, $verificaEmail))
             return ['Error' => 'O email informado não corresponde ao cadastro informado. Por favor, insira o email correto.'];
         else
@@ -225,7 +225,7 @@ class GerentiRepositoryMock implements GerentiRepositoryInterface{
             "CXP_SITUACAO" => 0,
             "USU_CODIGO" => 178,
             "SYS_LAST_UPDATE" => "2019-11-21 00:00:00",
-            "CXP_VALOR" => "desenvolvimento@core-sp.org.br",
+            "CXP_VALOR" => "desenvolvimento@core-es.org.br",
             "CXP_TIPO" => 3,
             "CXP_OBS" => "E-mail de teste Gerenti x Portal",
             "CXP_STATUS" => 1
@@ -273,7 +273,7 @@ class GerentiRepositoryMock implements GerentiRepositoryInterface{
             "TOTAL" => "175.85",
             "BOLETO" => "12345",
             "VENCIMENTOBOLETO" => "2021-06-28",
-            "LINK" => "https://www.core-sp.org.br/",
+            "LINK" => "https://www.core-es.org.br/",
             "SITUACAO" => "Em aberto"
         ];
         $resultado[2] = [
@@ -287,7 +287,7 @@ class GerentiRepositoryMock implements GerentiRepositoryInterface{
             "TOTAL" => "175.85",
             "BOLETO" => "12345",
             "VENCIMENTOBOLETO" => "2021-05-28",
-            "LINK" => "https://www.core-sp.org.br/",
+            "LINK" => "https://www.core-es.org.br/",
             "SITUACAO" => "Em aberto"
         ];
         $resultado[3] = [
@@ -301,7 +301,7 @@ class GerentiRepositoryMock implements GerentiRepositoryInterface{
             "TOTAL" => "175.85",
             "BOLETO" => "12345",
             "VENCIMENTOBOLETO" => "2021-04-28",
-            "LINK" => "https://www.core-sp.org.br/",
+            "LINK" => "https://www.core-es.org.br/",
             "SITUACAO" => "Em aberto"
         ];
        
@@ -383,7 +383,7 @@ class GerentiRepositoryMock implements GerentiRepositoryInterface{
                 "REGISTRONUM" => "0000000001", 
                 "ASS_ID" => "000001", 
                 "NOME" => "RC Teste 1", 
-                "EMAILS" => "desenvolvimento@core-sp.org.br"
+                "EMAILS" => "desenvolvimento@core-es.org.br"
             ];
         }
         elseif($cpfCnpj == "11748345000144") {
@@ -392,7 +392,7 @@ class GerentiRepositoryMock implements GerentiRepositoryInterface{
                 "REGISTRONUM" => "0000000002", 
                 "ASS_ID" => "000002", 
                 "NOME" => "RC Teste 2", 
-                "EMAILS" => "desenvolvimento@core-sp.org.br"
+                "EMAILS" => "desenvolvimento@core-es.org.br"
             ];
         }
 

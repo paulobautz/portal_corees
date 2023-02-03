@@ -300,7 +300,7 @@ function regioes()
 
 function emailResetRepresentante($token)
 {
-    $body = 'Você está recebendo este email pois solicitou alteração de senha no Portal Core-SP.';
+    $body = 'Você está recebendo este email pois solicitou alteração de senha no Portal Core-ES.';
     $body .= '<br>';
     $body .= 'Lembrando que este link é válido por 60 minutos.';
     $body .= '<br>';
@@ -312,7 +312,7 @@ function emailResetRepresentante($token)
     $body .= '<br><br>';
     $body .= 'Atenciosamente,';
     $body .= '<br>';
-    $body .= 'Portal Core-SP';
+    $body .= 'Portal Core-ES';
 
     return $body;
 }
@@ -488,8 +488,8 @@ function termoDeUso()
 {
     return '
         <p><strong>1. Aceitação dos Termos e Condições de Uso</strong></p>
-        <p>O uso da Área Restrita do Representante Comercial oferecida pela Core-SP está condicionado à aceitação e ao cumprimento dos Termos e Condições de Uso descritos abaixo.</p>
-        <p>Para fazer uso da Área Restrita, é preciso: (i) ler atentamente os termos descritos abaixo; (ii) concordar expressamente com eles, (iii) se cadastrar fornecendo o CPF/CNPJ, número de registro junto ao Core-SP e o e-mail válido cadastrado no ato de registro profissional, para ter acesso à Área Restrita.</p>
+        <p>O uso da Área Restrita do Representante Comercial oferecida pela Core-ES está condicionado à aceitação e ao cumprimento dos Termos e Condições de Uso descritos abaixo.</p>
+        <p>Para fazer uso da Área Restrita, é preciso: (i) ler atentamente os termos descritos abaixo; (ii) concordar expressamente com eles, (iii) se cadastrar fornecendo o CPF/CNPJ, número de registro junto ao Core-ES e o e-mail válido cadastrado no ato de registro profissional, para ter acesso à Área Restrita.</p>
     ';
 }
 

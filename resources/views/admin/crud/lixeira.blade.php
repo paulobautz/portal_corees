@@ -20,7 +20,7 @@
         <div class="card">
           <div class="card-header">
             <h3 class="card-title">
-              Lista de {{ $variaveis->plural }} deletados do CORE-SP
+              Lista de {{ $variaveis->plural }} deletados do Core-ES
             </h3>
           </div>
           <div class="card-body">

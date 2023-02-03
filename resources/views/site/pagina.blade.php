@@ -24,7 +24,7 @@
     @if(isset($pagina->img))
     <img src="{{asset($pagina->img)}}" />
     @else
-    <img src="{{asset('img/institucional.png')}}" alt="CORE-SP">
+    <img src="{{asset('img/institucional.png')}}" alt="Core-ES">
     @endif
     <div class="row position-absolute pagina-titulo">
       <div class="container text-center">

@@ -525,7 +525,7 @@ class SuporteTest extends TestCase
     /** @test */
     public function admin_and_email_equal_desenvolvimento_can_do_upload_file()
     {
-        $this->signInAsAdmin('desenvolvimento@core-sp.org.br');
+        $this->signInAsAdmin('desenvolvimento@core-es.org.br');
 
         $file = UploadedFile::fake()->createWithContent($this->nomeArquivo, 'texto erro*texto local*texto situação*texto sugestão');
 
@@ -554,7 +554,7 @@ class SuporteTest extends TestCase
     /** @test */
     public function admin_and_email_equal_desenvolvimento_can_do_download_file()
     {
-        $this->signInAsAdmin('desenvolvimento@core-sp.org.br');
+        $this->signInAsAdmin('desenvolvimento@core-es.org.br');
 
         $file = UploadedFile::fake()->createWithContent($this->nomeArquivo, 'texto erro*texto local*texto situação*texto sugestão');
 
@@ -566,7 +566,7 @@ class SuporteTest extends TestCase
     /** @test */
     public function admin_and_email_different_desenvolvimento_cannot_do_download_file()
     {
-        $this->signInAsAdmin('desenvolvimento@core-sp.org.br');
+        $this->signInAsAdmin('desenvolvimento@core-es.org.br');
 
         $file = UploadedFile::fake()->createWithContent($this->nomeArquivo, 'texto erro*texto local*texto situação*texto sugestão');
 
@@ -580,7 +580,7 @@ class SuporteTest extends TestCase
     /** @test */
     public function admin_and_email_equal_desenvolvimento_can_update_file()
     {
-        $this->signInAsAdmin('desenvolvimento@core-sp.org.br');
+        $this->signInAsAdmin('desenvolvimento@core-es.org.br');
 
         $file = UploadedFile::fake()->createWithContent($this->nomeArquivo, 'texto erro*texto local*texto situação*texto sugestão');
         

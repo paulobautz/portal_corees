@@ -95,12 +95,12 @@
   	  	  	<h3 class="card-title">Conectado como: <strong>{{ auth()->user()->perfil->nome }}</strong></h3>
   	  	  </div>
   	  	  <div class="card-body">
-			<p>Este é o painel de administrador do Portal do CORE-SP!</p>
+			<p>Este é o painel de administrador do Portal do Core-ES!</p>
 			<a href="/" class="btn btn-success" target="_blank">VISITAR SITE</a>
 			<a href="/admin/logout" class="btn btn-default ml-1">DESCONECTAR</a>
   	  	  </div>
 		  <div class="card-footer">
-		  	CORE-SP
+		  	Core-ES
 		  </div>
   	  	</div>
   	  </div>

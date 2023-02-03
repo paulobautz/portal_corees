@@ -3124,7 +3124,7 @@ class AgendamentoTest extends TestCase
 
         $this->get(route('agendamentosite.formview'))
         ->assertSee('<i class="icon fa fa-ban"></i>Agendamento bloqueado por excesso de falta nos últimos 90 dias.')
-        ->assertSee(' Favor entrar em contato com o Core-SP para regularizar o agendamento.');
+        ->assertSee(' Favor entrar em contato com o Core-ES para regularizar o agendamento.');
 
         $this->assertEquals(Agendamento::count(), 3);
     }

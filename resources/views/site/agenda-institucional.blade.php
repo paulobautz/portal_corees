@@ -1,7 +1,7 @@
 @extends('site.layout.app', ['title' => 'Agenda Institucional'])
 
 @section('description')
-  <meta name="description" content="Agenda Institucional ooficial contendo a agenda do CORE-SP." />
+  <meta name="description" content="Agenda Institucional ooficial contendo a agenda do Core-ES." />
 @endsection
 
 @section('content')

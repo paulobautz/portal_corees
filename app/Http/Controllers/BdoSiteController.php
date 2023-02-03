@@ -90,7 +90,7 @@ class BdoSiteController extends Controller
                 return redirect()
                     ->back()
                     ->with([
-                        'message' => 'A empresa informada <strong>já possui uma vaga sob análise ou em andamento no Balcão de Oportunidades</strong> do Core-SP. Para solicitar nova inclusão, favor entrar em contato através do e-mail: <strong>assessoria.presidencia@core-sp.org.br</strong> informando CNPJ, nome do responsável e telefone para contato.',
+                        'message' => 'A empresa informada <strong>já possui uma vaga sob análise ou em andamento no Balcão de Oportunidades</strong> do Core-ES. Para solicitar nova inclusão, favor entrar em contato através do e-mail: <strong>assessoria.presidencia@core-es.org.br</strong> informando CNPJ, nome do responsável e telefone para contato.',
                         'class' => 'alert-danger'
                     ]);
             }
@@ -112,7 +112,7 @@ class BdoSiteController extends Controller
 
         event(new ExternoEvent('*' . $empresa->razaosocial . '* (' . $empresa->email . ') solicitou inclusão de oportunidade no Balcão de Oportunidades e '.$termo->message()));
 
-        Mail::to(['assessoria.presidencia@core-sp.org.br', 'desenvolvimento@core-sp.org.br'])->queue(new AnunciarVagaMail($oportunidade->idoportunidade));
+        Mail::to(['assessoria.presidencia@core-es.org.br', 'desenvolvimento@core-es.org.br'])->queue(new AnunciarVagaMail($oportunidade->idoportunidade));
 
         return view('site.agradecimento')->with([
             'agradece' => $this->agradecimento()
@@ -149,11 +149,11 @@ class BdoSiteController extends Controller
     {
         $agradece = 'Sua solicitação foi enviada com sucesso!';
         $agradece .= '<br><br>';
-        $agradece .= 'Muito obrigado pelo interesse em fazer parte do <strong>Balcão de Oportunidades</strong> do <strong>Core-SP!</strong>';
+        $agradece .= 'Muito obrigado pelo interesse em fazer parte do <strong>Balcão de Oportunidades</strong> do <strong>Core-ES!</strong>';
         $agradece .= '<br><br>';
         $agradece .= 'A(s) vaga(s) será(ão) disponibilizada(s) em até 03 (três) dias úteis, após a verificação dos dados informados.';
         $agradece .= '<br><br>';
-        $agradece .= 'Caso necessite mais esclarecimentos, entre em contato conosco através do email assessoria.presidencia@core-sp.org.br.';
+        $agradece .= 'Caso necessite mais esclarecimentos, entre em contato conosco através do email assessoria.presidencia@core-es.org.br.';
         return $agradece;
     }
 }

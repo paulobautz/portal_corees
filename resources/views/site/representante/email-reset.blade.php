@@ -55,14 +55,14 @@
                 @endif
               </div>
               <div class="form-group">
-                <label for="registro_core">Registro no Core-SP</label>
+                <label for="registro_core">Registro no Core-ES</label>
                 <input 
                   type="text"
                   name="registro_core"
                   class="form-control {{ $errors->has('registro_core') ? 'is-invalid' : '' }}"
                   id="registro_core"
                   value="{{ isset($registro_core) ? $registro_core : old('registro_core') }}"
-                  placeholder="Nº do registro no Core-SP"
+                  placeholder="Nº do registro no Core-ES"
                 >
                 @if ($errors->has('registro_core'))
                   <div class="invalid-feedback">

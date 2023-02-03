@@ -43,7 +43,7 @@ class ResetPassword extends ResetPasswordNotification
     {
         return (new MailMessage)
             ->subject('Solicitação de reconfiguração de senha')
-            ->line('Você está recebendo este e-mail pois solicitou a reconfiguração da senha no Portal CORE-SP.')
+            ->line('Você está recebendo este e-mail pois solicitou a reconfiguração da senha no Portal Core-ES.')
             ->line('Lembrando que este link é válido por 15 minutos.')
             ->action('Reconfigurar Senha', url('admin/password/reset', $this->token))
             ->line('Caso não tenha solicitado a reconfiguração, favor desconsiderar este e-mail');

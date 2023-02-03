@@ -43,7 +43,7 @@
         <div class="card">
           <div class="card-header">
             <h3 class="card-title d-inline">
-              Lista de {{ $variaveis->plural }} do CORE-SP
+              Lista de {{ $variaveis->plural }} do Core-ES
             </h3>
             @if(isset($busca))
               <a href="/admin/{{ isset($variaveis->slug) ? $variaveis->slug : $variaveis->plural }}" class="badge badge-primary d-inline ml-2">Mostrar todos</a>

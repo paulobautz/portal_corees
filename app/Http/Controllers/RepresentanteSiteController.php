@@ -155,7 +155,7 @@ class RepresentanteSiteController extends Controller
         if(!$save)
             abort(403);
 
-        $body = '<strong>Cadastro no Portal Core-SP realizado com sucesso!</strong>';
+        $body = '<strong>Cadastro no Portal Core-ES realizado com sucesso!</strong>';
         $body .= '<br /><br />';
         $body .= 'Para concluir o processo, basta clicar <a href="'. route('representante.verifica-email', $token) .'">NESTE LINK</a>.';
 
@@ -185,7 +185,7 @@ class RepresentanteSiteController extends Controller
         if(!$update)
             abort(403);
 
-        $body = '<strong>Cadastro no Portal Core-SP realizado com sucesso!</strong>';
+        $body = '<strong>Cadastro no Portal Core-ES realizado com sucesso!</strong>';
         $body .= '<br /><br />';
         $body .= 'Para concluir o processo, basta clicar <a href="'. route('representante.verifica-email', $token) .'">NESTE LINK</a>.';
 
@@ -292,7 +292,7 @@ class RepresentanteSiteController extends Controller
             return redirect()
                 ->route('representante.enderecos.view')
                 ->with([
-                    'message' => 'Você já possui uma solicitação de alteração de endereço sob análise. Não é possível solicitar uma nova até que a anterior seja analisada e protocolada pela equipe do Core-SP.',
+                    'message' => 'Você já possui uma solicitação de alteração de endereço sob análise. Não é possível solicitar uma nova até que a anterior seja analisada e protocolada pela equipe do Core-ES.',
                     'class' => 'alert-danger'
                 ]);
         }
@@ -322,7 +322,7 @@ class RepresentanteSiteController extends Controller
 
         event(new ExternoEvent('Usuário ' . Auth::guard('representante')->user()->id . ' ("'. Auth::guard('representante')->user()->registro_core .'") solicitou mudança no endereço de correspondência.'));
 
-        Mail::to(['desenvolvimento@core-sp.org.br', 'atendimento.adm@core-sp.org.br'])->queue(new SolicitacaoAlteracaoEnderecoMail($save->id));
+        Mail::to(['desenvolvimento@core-es.org.br', 'atendimento.adm@core-es.org.br'])->queue(new SolicitacaoAlteracaoEnderecoMail($save->id));
 
         return redirect()
             ->route('representante.enderecos.view')
@@ -410,7 +410,7 @@ class RepresentanteSiteController extends Controller
             event(new ExternoEvent('Usuário ' . Auth::guard('representante')->user()->id . ' ("'. Auth::guard('representante')->user()->registro_core .'") não conseguiu emitir certidão. Erro: ' . $responseGerentiJsonError['error']['messages'][0]));
 
             $titulo = 'Falha ao emitir certidão';
-            $mensagem = 'Não foi possível emitir a certidão. Por favor entre em contato com o CORE-SP para mais informações.';
+            $mensagem = 'Não foi possível emitir a certidão. Por favor entre em contato com o Core-ES para mais informações.';
             $emitir = false;
 
             return view("site.representante.emitir-certidao", compact('titulo', 'mensagem', 'emitir'));

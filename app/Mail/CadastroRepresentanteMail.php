@@ -20,7 +20,7 @@ class CadastroRepresentanteMail extends Mailable
 
     public function build()
     {
-        return $this->subject('Cadastro no Portal Core-SP')
+        return $this->subject('Cadastro no Portal Core-ES')
             ->view('emails.default');
     }
 }

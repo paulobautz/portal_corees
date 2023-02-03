@@ -39,16 +39,16 @@
         <div class="col-md-2 center sociais-post position-relative hide-768">
           <div id="prender">
             <a class="fb-share" href="https://www.facebook.com/dialog/share?app_id=788710944865049&display=popup&href={{ route('site.blog.post', $post->slug) }}" target="_blank">
-              <img src="{{ asset('img/facebook-share.png') }}" alt="Core-SP | Facebook Share">
+              <img src="{{ asset('img/facebook-share.png') }}" alt="Core-ES | Facebook Share">
             </a>
-            <a class="twitter-share" href="https://twitter.com/intent/tweet?url={{ route('site.blog.post', $post->slug) }}&text={{ $post->titulo }}&hashtags=RepresentanteComercial,Core-SP,Vendas">
-              <img src="{{ asset('img/twitter-share.png') }}" alt="Core-SP | Twitter Share">
+            <a class="twitter-share" href="https://twitter.com/intent/tweet?url={{ route('site.blog.post', $post->slug) }}&text={{ $post->titulo }}&hashtags=RepresentanteComercial,Core-ES,Vendas">
+              <img src="{{ asset('img/twitter-share.png') }}" alt="Core-ES | Twitter Share">
             </a>
             <a href="https://wa.me/?text={{ route('site.blog.post', $post->slug) }}" target="_blank">
-              <img src="{{ asset('img/whatsapp-share.png') }}" alt="Core-SP | Whatsapp Share">
+              <img src="{{ asset('img/whatsapp-share.png') }}" alt="Core-ES | Whatsapp Share">
             </a>
-            <a class="linkedin-share" href="https://www.linkedin.com/shareArticle?mini=true&url={{ route('site.blog.post', $post->slug) }}&title={{ $post->titulo }}&summary={!! strip_tags(substr($post->conteudo, 0, 100)) !!}&source=Core-SP">
-              <img src="{{ asset('img/linkedin-share.png') }}" alt="Core-SP | LinkedIn Share">
+            <a class="linkedin-share" href="https://www.linkedin.com/shareArticle?mini=true&url={{ route('site.blog.post', $post->slug) }}&title={{ $post->titulo }}&summary={!! strip_tags(substr($post->conteudo, 0, 100)) !!}&source=Core-ES">
+              <img src="{{ asset('img/linkedin-share.png') }}" alt="Core-ES | LinkedIn Share">
             </a>
           </div>
         </div>
@@ -91,9 +91,9 @@
           <hr class="mb-4">
           <div class="d-block bot-post">
             <h5>Como podemos melhorar?</h5>
-            <p>Tem alguma sugestão, critica ou elogio? Algo que gostaria de comentar? Sentiu falta de algum serviço que o Core-SP pode oferecer?</p>
+            <p>Tem alguma sugestão, critica ou elogio? Algo que gostaria de comentar? Sentiu falta de algum serviço que o Core-ES pode oferecer?</p>
             <p>Nosso objetivo é de aprimorar os serviços oferecidos para que possamos lhe atender cada vez melhor. Ajude a construir um novo Conselho!</p>
-            <p><strong>Email:</strong> comunicação@core-sp.org.br</p>
+            <p><strong>Email:</strong> comunicação@core-es.org.br</p>
           </div>
         </div>
       </div>

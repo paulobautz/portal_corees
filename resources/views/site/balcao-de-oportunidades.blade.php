@@ -1,7 +1,7 @@
 @extends('site.layout.app', ['title' => 'Balcão de Oportunidades'])
 
 @section('description')
-  <meta name="description" content="O Balcão de Oportunidades do Core-SP é o local ideal para empresas e Representantes Comerciais se conectarem e compartilharem oportunidades." />
+  <meta name="description" content="O Balcão de Oportunidades do Core-ES é o local ideal para empresas e Representantes Comerciais se conectarem e compartilharem oportunidades." />
 @endsection
 
 @section('content')

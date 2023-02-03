@@ -15,11 +15,11 @@ class AnunciarVagaMail extends Mailable
 
     public function __construct($id)
     {
-        $this->body = 'Nova solicitação de inclusão de oportunidade no Balcão de Oportunidades do Core-SP.';
+        $this->body = 'Nova solicitação de inclusão de oportunidade no Balcão de Oportunidades do Core-ES.';
         $this->body .= '<br><br>';
         $this->body .= '<strong>Código da Oportunidade:</strong> #' . $id;
         $this->body .= '<br><br>';
-        $this->body .= 'Favor acessar o <a href="'. route('site.home') .'/admin/bdo/editar/'. $id .'">painel de administrador</a> do Core-SP para validar as informações.';
+        $this->body .= 'Favor acessar o <a href="'. route('site.home') .'/admin/bdo/editar/'. $id .'">painel de administrador</a> do Core-ES para validar as informações.';
     }
 
     public function build()

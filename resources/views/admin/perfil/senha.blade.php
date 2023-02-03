@@ -75,7 +75,7 @@
             </form>
   	  	  </div>
   	  	  <div class="card-footer">
-  	  	  	CORE-SP
+  	  	  	Core-ES
   	  	  </div>
   	  	</div>
   	  </div>

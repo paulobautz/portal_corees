@@ -34,7 +34,7 @@
       <div class="col-lg-8 consulta-linha">
         <div class="row nomargin mb-3">
           <p class="mb-2 light">
-            Para garantir a transparência e a responsabilidade do <strong>CORE-SP</strong>, para que você continue  recebendo os boletins informativos e as oportunidades que só o <strong>CORE-SP</strong> oferece a você, precisamos do seu consentimento.
+            Para garantir a transparência e a responsabilidade do <strong>Core-ES</strong>, para que você continue  recebendo os boletins informativos e as oportunidades que só o <strong>Core-ES</strong> oferece a você, precisamos do seu consentimento.
           </p>
           <p class="light">
             Li e estou de acordo com o <a href="{{ route('termo.consentimento.pdf') }}" target="_blank"><u><strong>TERMO DE CONSENTIMENTO</strong></u></a>

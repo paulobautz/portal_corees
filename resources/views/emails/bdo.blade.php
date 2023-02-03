@@ -1,7 +1,7 @@
 <html>
     <body>
         <div style="margin-top:15px;margin-bottom:15px;">
-            <img src="{{ $message->embed(public_path().'/img/logo-email.png') }}" alt="CORE-SP" />
+            <img src="{{ $message->embed(public_path().'/img/logo-email.png') }}" alt="Core-ES" />
         </div>
         <hr>
         <div>
@@ -9,7 +9,7 @@
         </div>
         <hr>
         <div>
-            <p>Solicitação enviada pelo <a href="{{ route('site.home') }}">site oficial</a> do CORE-SP.</p>
+            <p>Solicitação enviada pelo <a href="{{ route('site.home') }}">site oficial</a> do Core-ES.</p>
         </div>
     </body>
 </html>

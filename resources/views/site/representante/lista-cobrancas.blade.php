@@ -6,7 +6,7 @@
     <div class="nomargin conteudo-txt-mini light">
         <h4 class="pt-1 pb-1">Situação Financeira</h4>
         <div class="linha-lg-mini mb-3"></div>
-        <p>Verifique abaixo a lista de cobranças vigentes junto ao Core-SP, sendo certo que <strong>só será possível imprimir boletos dentro do prazo de vencimento</strong>. Demais pendências, fora do prazo de vencimento, deverão ser regularizadas na sede ou em uma das Seccionais do Core-SP, pessoalmente, ou pelo email <strong>financeiro@core-sp.org.br</strong></p>
+        <p>Verifique abaixo a lista de cobranças vigentes junto ao Core-ES, sendo certo que <strong>só será possível imprimir boletos dentro do prazo de vencimento</strong>. Demais pendências, fora do prazo de vencimento, deverão ser regularizadas na sede ou em uma das Seccionais do Core-ES, pessoalmente, ou pelo email <strong>financeiro@core-es.org.br</strong></p>
         <h5 class="mt-0 mb-2"><i class="fas fa-level-up-alt rotate-90"></i>&nbsp;&nbsp;ANUIDADES</h5>
         @if (!empty($cobrancas['anuidades']))
             <table class="table table-bordered bg-white mb-0">

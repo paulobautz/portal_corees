@@ -35,7 +35,7 @@ class TermoConsentimentoService implements TermoConsentimentoServiceInterface {
 
     public function caminhoFile()
     {
-        $pdf = 'arquivos/CORE-SP_Termo_de_consentimento.pdf';
+        $pdf = 'arquivos/Core-ES_Termo_de_consentimento.pdf';
 
         return File::exists($pdf) ? $pdf : null;
     }

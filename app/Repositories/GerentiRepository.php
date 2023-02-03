@@ -35,7 +35,7 @@ class GerentiRepository implements GerentiRepositoryInterface
         $verificaEmail = explode(';', $resultado[0]['EMAILS']);
 
         if($resultado[0]['SITUACAO'] !== 'Ativo')
-            return ['Error' => 'O cadastro informado não está corretamente inscrito no Core-SP. Por favor, verifique as informações inseridas.'];
+            return ['Error' => 'O cadastro informado não está corretamente inscrito no Core-ES. Por favor, verifique as informações inseridas.'];
         elseif(!in_array($email, $verificaEmail))
             return ['Error' => 'O email informado não corresponde ao cadastro informado. Por favor, insira o email correto.'];
         else

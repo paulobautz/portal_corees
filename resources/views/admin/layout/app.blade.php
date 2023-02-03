@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>CORE-SP | Portal</title>
+        <title>Core-ES | Portal</title>
         <link rel="icon" href="{{ asset('img/favicon.ico') }}" type="image/ico" />
 
         <link type="text/css" href="{{ asset('/css/app.css') }}" rel="stylesheet">
@@ -54,7 +54,7 @@
           <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="/admin" class="brand-link">
-              <img src="{{ asset('img/brasao.png') }}" alt="CORE-SP Logo" class="brand-image img-circle elevation-3">
+              <img src="{{ asset('img/brasao.png') }}" alt="Core-ES Logo" class="brand-image img-circle elevation-3">
               <span class="brand-text font-weight-light"><strong>CORE-</strong>SP</span>
             </a>
 
@@ -93,7 +93,7 @@
             <div class="float-right d-none d-sm-block">
               <b>Versão</b> 3.1.4
             </div>
-            <strong>Portal CORE-SP &copy; {{ date('Y') }}.</strong> Todos direitos reservados.
+            <strong>Portal Core-ES &copy; {{ date('Y') }}.</strong> Todos direitos reservados.
           </footer>
 
         </div>

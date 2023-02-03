@@ -17,7 +17,7 @@ class AgendamentoMailGuest extends Mailable
     {
         $this->body = "<strong>Seu atendimento foi agendado com sucesso!</strong>";
         $this->body  .= "<br>";
-        $this->body  .= "Por favor, compareça ao escritório do CORE-SP com no mínimo 15 minutos de antecedência e com o número de protocolo em mãos.";
+        $this->body  .= "Por favor, compareça ao escritório do Core-ES com no mínimo 15 minutos de antecedência e com o número de protocolo em mãos.";
         $this->body  .= "<br><br>";
         $this->body  .= "<strong>Protocolo:</strong> " . $agendamento->protocolo;
         $this->body  .= "<br><br>";
@@ -31,7 +31,7 @@ class AgendamentoMailGuest extends Mailable
         $this->body  .= " - " . $agendamento->regional->complemento . "<br>";
         $this->body  .= "Serviço: " . $agendamento->tiposervico . '<br>';
         $this->body  .= "<br>";
-        $this->body  .= 'Antes de comparecer no CORE-SP, acesse o link a seguir e verifique os procedimentos (documentação e valores) que precisam ser apresentados no dia do agendamento - <a href="' . route('site.home') . '/servicos-atendimento-ao-rc"><u>Atendimento ao Representante Comercial</u></a>';
+        $this->body  .= 'Antes de comparecer no Core-ES, acesse o link a seguir e verifique os procedimentos (documentação e valores) que precisam ser apresentados no dia do agendamento - <a href="' . route('site.home') . '/servicos-atendimento-ao-rc"><u>Atendimento ao Representante Comercial</u></a>';
     }
 
     public function build()

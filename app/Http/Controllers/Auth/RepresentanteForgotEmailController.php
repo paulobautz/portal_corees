@@ -74,7 +74,7 @@ class RepresentanteForgotEmailController extends Controller
             'email_novo' => 'required|email'
         ], [
             'cpf_cnpj.required' => 'Por favor, informe o CPF / CNPJ',
-            'registro_core.required' => 'Por favor, informe o número de registro no Core-SP',
+            'registro_core.required' => 'Por favor, informe o número de registro no Core-ES',
             'email_antigo.required' => 'Por favor, informe o email antigo, utilizado no momento do cadastro',
             'email' => 'Email inválido',
             'email_novo.required' => 'Por favor, informe o email para o qual deseja atualizar seu cadastro'

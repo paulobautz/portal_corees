@@ -38,7 +38,7 @@ class RepresentanteLoginController extends Controller
             if($checkGerenti === false) {
                 return redirect()
                     ->route('representante.cadastro')
-                    ->with('message', 'Desculpe, mas o cadastro informado não está corretamente inscrito no Core-SP. Por favor, verifique se todas as informações foram inseridas corretamente.')
+                    ->with('message', 'Desculpe, mas o cadastro informado não está corretamente inscrito no Core-ES. Por favor, verifique se todas as informações foram inseridas corretamente.')
                     ->withInput(IlluminateRequest::all());
             }
         }

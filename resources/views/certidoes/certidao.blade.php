@@ -20,7 +20,7 @@
   <body>
     <div style="padding: 70 0;">
       <div class="centro">
-          <img src="{{ public_path('img/logo-core.png') }}" alt="CORE-SP" />
+          <img src="{{ public_path('img/logo-core.png') }}" alt="Core-ES" />
       </div>
       <div>
         {!! $declaracao !!}

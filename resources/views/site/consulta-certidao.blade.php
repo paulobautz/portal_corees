@@ -21,7 +21,7 @@
       <div class="col">
         <div class="row nomargin">
           <div class="flex-one pr-3 align-self-center">
-            <h2 class="stronger">Consulte certidões no CORE-SP</h2>
+            <h2 class="stronger">Consulte certidões no Core-ES</h2>
           </div>
           <div class="align-self-center">
             <a href="{{ isset($autenticado) ? route('certidao.consultaView') : '/' }}" class="btn-voltar">Voltar</a>
@@ -35,7 +35,7 @@
       <div class="mt-3">
         @if($autenticado)
         <div class="alert alert-warning"> 
-          <h5><i class="icon fa fa-check"></i>Esta é uma certidão emitida oficialmente pelo Core-SP.</h5>
+          <h5><i class="icon fa fa-check"></i>Esta é uma certidão emitida oficialmente pelo Core-ES.</h5>
           <p><strong>{!! $resultado !!}</strong></p>
         </div>
         @else

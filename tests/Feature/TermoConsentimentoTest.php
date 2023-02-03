@@ -69,7 +69,7 @@ class TermoConsentimentoTest extends TestCase
     // /** @test */
     // public function view_pdf_termo()
     // {
-    //     $file = UploadedFile::fake()->create('CORE-SP_Termo_de_consentimento.pdf');
+    //     $file = UploadedFile::fake()->create('core-es_Termo_de_consentimento.pdf');
 
     //     $this->get(route('termo.consentimento.pdf'))
     //     ->assertHeader('content-type', 'application/pdf')

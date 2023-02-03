@@ -155,7 +155,7 @@ class SuporteController extends Controller
     public function uploadFileErros(SuporteRequest $request)
     {
         $request->validated();
-        $liberado = auth()->user()->can('onlyAdmin', auth()->user()) && auth()->user()->email == 'desenvolvimento@core-sp.org.br';
+        $liberado = auth()->user()->can('onlyAdmin', auth()->user()) && auth()->user()->email == 'desenvolvimento@core-es.org.br';
         abort_if(!$liberado, 403);
         try{
             $this->service->getService('Suporte')->uploadFileErros($request->file);
@@ -172,7 +172,7 @@ class SuporteController extends Controller
 
     public function getErrosFile()
     {
-        $liberado = auth()->user()->can('onlyAdmin', auth()->user()) && auth()->user()->email == 'desenvolvimento@core-sp.org.br';
+        $liberado = auth()->user()->can('onlyAdmin', auth()->user()) && auth()->user()->email == 'desenvolvimento@core-es.org.br';
         abort_if(!$liberado, 403);
         try{
             $path = $this->service->getService('Suporte')->getFileErros();

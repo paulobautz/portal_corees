@@ -118,7 +118,7 @@
         </table>
 
         @else
-        <p>Não é possível simular valores Refis para quitar anuidades em aberto devido a situação do representante comercial. Em caso de dúvidas, por favor contactar o CORE-SP.</p>
+        <p>Não é possível simular valores Refis para quitar anuidades em aberto devido a situação do representante comercial. Em caso de dúvidas, por favor contactar o Core-ES.</p>
         @endif
 
     </div>            
