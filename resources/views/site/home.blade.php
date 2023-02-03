@@ -6,7 +6,8 @@
 
 @section('content')
 
-@include('site.inc.popup')
+<!-- Adiciona popup
+@include('site.inc.popup') --> 
 
 <section>
   <div class="container-fluid">
