@@ -141,7 +141,7 @@ class BdoSiteController extends Controller
             return $mostra;
         } 
         else {
-            return "Em todo o estado de São Paulo";
+            return "Em todo o estado do Espirito Santo";
         }
     }
 

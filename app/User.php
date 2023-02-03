@@ -111,7 +111,7 @@ class User extends Authenticatable
         {
             case 1:
             case 6:
-                $subject = 'em São Paulo e Seccionais';
+                $subject = 'em Espirito Santo e Seccionais';
                 break;
             case 8:
                 $agendados = $todos_agendados->where('idregional', $this->idregional)->count();

@@ -33,7 +33,7 @@ class BdoOportunidadeControllerHelper extends Controller
     {
         $regioes = [
             'Capital',
-            'Grande São Paulo',
+            'Grande Vitória',
             'Interior',
             'Litoral'
         ];
@@ -194,7 +194,7 @@ class BdoOportunidadeControllerHelper extends Controller
             $mostra = str_replace(',',' / ',$corrigido);
             return $mostra;
         } else {
-            $mostra = "Em todo o estado de São Paulo";
+            $mostra = "Em todo o estado do Espirito Santo";
             return $mostra;
         }
     }

@@ -61,8 +61,8 @@ class SimuladorControllerHelper extends Controller
                 <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009. (www.sircesp.com.br); <small><strong>(caráter facultativo)</strong></small></li>
             </ol>
             <p>OBS. Se o registro for requerido através de terceiros será necessário apresentar procuração especifica para realizar o registro no Core-ES, dando poderes para representá-lo, e cópia do documento do procurador;</p>
-            <strong>Conselho Regional dos Representantes Comerciais no Estado de São Paulo</strong>
-            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - São Paulo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
+            <strong>Conselho Regional dos Representantes Comerciais no Estado do Espirito Santo</strong>
+            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - Espirito Santo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
         ';
     }
 
@@ -83,8 +83,8 @@ class SimuladorControllerHelper extends Controller
                 <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009. (www.sircesp.com.br); <small><strong>(caráter facultativo)</strong></small></li>
             </ol>
             <p>OBS. Se o registro for requerido através de terceiros será necessário apresentar procuração especifica para realizar o registro no Core-ES, dando poderes para representá-lo, e cópia do documento do procurador;</p>
-            <strong>Conselho Regional dos Representantes Comerciais no Estado de São Paulo</strong>
-            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - São Paulo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
+            <strong>Conselho Regional dos Representantes Comerciais no Estado do Espirito Santo</strong>
+            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - Espirito Santo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
         ';
     }
 
@@ -113,8 +113,8 @@ class SimuladorControllerHelper extends Controller
                 <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009. (www.sircesp.com.br); <small><strong>(caráter facultativo)</strong></small></li>
             </ol>
             <p>OBS. Se o registro for requerido através de terceiros será necessário apresentar procuração especifica para realizar o registro no Core-ES, dando poderes para representá-lo, e cópia do documento do procurador;</p>
-            <strong>Conselho Regional dos Representantes Comerciais no Estado de São Paulo</strong>
-            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - São Paulo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
+            <strong>Conselho Regional dos Representantes Comerciais no Estado do Espirito Santo</strong>
+            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - Espirito Santo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
         ';
     }
 
@@ -132,8 +132,8 @@ class SimuladorControllerHelper extends Controller
                 <li>Alvará de localização e inscrição ISS;</li>
             </ol>
             <p>OBS. Se o registro for requerido através de terceiros será necessário apresentar procuração especifica para realizar o registro no Core-ES, dando poderes para representá-lo, e cópia do documento do procurador;</p>
-            <strong>Conselho Regional dos Representantes Comerciais no Estado de São Paulo</strong>
-            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - São Paulo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
+            <strong>Conselho Regional dos Representantes Comerciais no Estado do Espirito Santo</strong>
+            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - Espirito Santo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
         ';
     }
 }

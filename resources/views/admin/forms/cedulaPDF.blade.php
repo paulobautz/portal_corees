@@ -129,7 +129,7 @@
       CONSELHO REGIONAL DOS REPRESENTANTES COMERCIAIS
     </p>
     <p id="segundo-p">
-      NO ESTADO DE SÃO PAULO
+      NO ESTADO DO ESPIRITO SANTO
     </p>
     <p id="terceiro-p">
       Core-ES
@@ -167,7 +167,7 @@
       de contato por mim informados a esse Conselho Regional.
     </p>
     <p id="data">
-      São Paulo, {{ now()->isoFormat('D') }} de {{ ucFirst(now()->isoFormat('MMMM')) }} de {{ now()->isoFormat('G') }}.
+      Vitória, {{ now()->isoFormat('D') }} de {{ ucFirst(now()->isoFormat('MMMM')) }} de {{ now()->isoFormat('G') }}.
     </p>
       <p id="assinatura">
         COORDENADORIA DE ATENDIMENTO Core-ES
