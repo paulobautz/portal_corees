@@ -14,3 +14,5 @@ yarn-error.log
 .DS_Store
 public/img/Thumbs.db
 *.xml
+app/Connections/FirebirdConnection.php
+app/Repositories/GerentiApiRepository.php

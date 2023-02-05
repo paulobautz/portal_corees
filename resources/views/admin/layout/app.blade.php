@@ -29,7 +29,7 @@
                 <a href="/admin/perfil" class="nav-link">Perfil</a>
               </li>
               <li class="nav-item d-none d-sm-inline-block">
-                <a href="/admin/chamados/criar" class="nav-link">Contate o CTI</a>
+                <a href="/admin/chamados/criar" class="nav-link">Contate o TI</a>
               </li>
               <li class="nav-item d-none d-sm-inline-block">
                 <a href="https://app.jivosite.com/" class="nav-link" target="_blank">Chat</a>
@@ -55,7 +55,7 @@
             <!-- Brand Logo -->
             <a href="/admin" class="brand-link">
               <img src="{{ asset('img/brasao.png') }}" alt="Core-ES Logo" class="brand-image img-circle elevation-3">
-              <span class="brand-text font-weight-light"><strong>CORE-</strong>SP</span>
+              <span class="brand-text font-weight-light"><strong>Core-</strong>ES</span>
             </a>
 
             <!-- Sidebar -->
@@ -64,7 +64,7 @@
               <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image align-self-center">
                   <a href="#">
-                    <strong>C-</strong>SP
+                    <strong>C-</strong>ES
                   </a>
                 </div>
                 <div class="info">

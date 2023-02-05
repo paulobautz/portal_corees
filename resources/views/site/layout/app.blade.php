@@ -23,7 +23,7 @@
         @yield('meta')
 
         @if(strstr(request()->getHttpHost(), 'core-es.org.br'))
-          <!-- Global site tag (gtag.js) - Google Analytics -->
+          <!-- Global site tag (gtag.js) - Google Analytics
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141375220-1"></script>
           <script>
             window.dataLayer = window.dataLayer || [];
@@ -31,7 +31,7 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-141375220-1');
-          </script>
+          </script> -->
         @endif
         {!! mostraChatScript() !!}
     </head>
