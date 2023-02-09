@@ -33,7 +33,7 @@
             gtag('config', 'UA-141375220-1');
           </script> -->
         @endif
-        {!! mostraChatScript() !!}
+       <!-- {!! mostraChatScript() !!} -->
     </head>
     <body>
 
