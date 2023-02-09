@@ -60,15 +60,15 @@ class LoginController extends Controller
             if(!isset($check)) {
                 $sessao = new Sessao();
                 $sessao->idusuario = $user->idusuario;
-                $sessao->ip_address = $request->ip();
+                $sessao->ip_address = $_SERVER['HTTP_X_REAL_IP'];
                 $save = $sessao->save();
                 if(!$save)
                     abort(500);
             } else {
-                if($check->ip_address == $request->ip()) {
+                if($check->ip_address == $_SERVER['HTTP_X_REAL_IP']) {
                     $update = $check->touch();
                 } else {
-                    $check->ip_address = $request->ip();
+                    $check->ip_address = $_SERVER['HTTP_X_REAL_IP'];
                     $update = $check->update();
                 }
                 if(!$update)
