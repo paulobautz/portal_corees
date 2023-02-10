@@ -264,10 +264,10 @@
           <div class="col-lg-7 beneficios-txt center-992">
             <h2 class="stronger text-white text-uppercase">Programa de Incentivos</h2>
             <p class="text-white light">O Core-ES traz benefícios diferenciados para Representantes Comerciais.</p>
-            <p class="text-white light">Faça parte do Grupo do WhatsApp e receba todos os dias os benefícios disponíveis.</p>
+            <p class="text-white light"></p>
             <div>
               <a href="/programa-de-incentivos" class="btn-beneficios">saiba mais</a>
-              <a href="https://chat.whatsapp.com/HPAXB7yne537CRQChfRfQe" class="btn-beneficios bg-white"><i class="fab fa-whatsapp fa-lg"></i> Grupo WhatsApp</a>
+             <!-- <a href="https://chat.whatsapp.com/HPAXB7yne537CRQChfRfQe" class="btn-beneficios bg-white"><i class="fab fa-whatsapp fa-lg"></i> Grupo WhatsApp</a> -->
             </div>
           </div>
           <div class="col-lg-5 hide-992">
@@ -304,21 +304,21 @@
           <div class="col-lg-6 faleSingle">
             <div class="row nomargin">
               <div class="align-self-center">
-                <img src="{{ asset('img/the-phone-icon.png') }}" class="inside-img" alt="Atendimento | Core-ES">
+                <img src="{{ asset('img/phone_novo.png') }}" class="inside-img" alt="Atendimento | Core-ES">
               </div>
               <div class="flex-one fale-txt align-self-center">
-                <h5 class="normal">Atendimento<br class="hide-992" /> (11) 3243-5500</h5>
+                <h5 class="normal">Atendimento<br class="hide-992" /> (27) 3223-3502</h5>
               </div>
             </div>
           </div>
           <div class="col-lg-6 faleSingle">
-            <a href="http://Core-ES.implanta.net.br/portaltransparencia/#publico/inicio" target="_blank">
+            <a href="https://wa.me/552732233502?text=Olá%20poderia%20me%20ajudar?" target="_blank">
               <div class="row nomargin">
                 <div class="align-self-center">
-                  <img src="{{ asset('img/icon_transparencia.png') }}" alt="Transparência | Core-ES">
+                  <img src="{{ asset('img/whatsapp_novo.png') }}" alt="Whatsapp | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
-                  <h5 class="normal">Acesso à<br class="hide-992" /> informação</h5>
+                  <h5 class="normal">Inicar uma conversa</h5>
                 </div>
               </div>
             </a>
@@ -332,25 +332,25 @@
         </div>
         <div class="row">
           <div class="col-lg-6 faleSingle">
-            <a href="https://t.me/+xrSNaf5S10oxZGE5" target="_blank">
+            <a href="https://www.facebook.com/core.es.oficial" target="_blank">
               <div class="row nomargin">
                 <div class="align-self-center">
-                  <img src="{{ asset('img/icone-telegram.png') }}" class="inside-img" alt="Telegram | Core-ES">
+                  <img src="{{ asset('img/facebook_novo.png') }}" class="inside-img" alt="Facebook | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
-                  <h5 class="normal">Faça parte do nosso grupo no Telegram<br class="hide-992" /></h5>
+                  <h5 class="normal">Siga-nos no<br class="hide-992" /> Facebook</h5>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-lg-6 faleSingle">
-            <a href="https://www.youtube.com/channel/UCOT_xwrQrpl_uu8MFl_EzWQ" target="_blank">
+            <a href="https://twitter.com/core_es_oficial" target="_blank">
               <div class="row nomargin">
                 <div class="align-self-center">
-                  <img src="{{ asset('img/the-youtube-icon.png') }}" class="inside-img" alt="YouTube | Core-ES">
+                  <img src="{{ asset('img/twitter_novo.png') }}" class="inside-img" alt="Twitter | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
-                  <h5 class="normal">Nosso canal<br class="hide-992" /> no YouTube</h5>
+                  <h5 class="normal">Siga-nos no<br class="hide-992" /> no Twitter</h5>
                 </div>
               </div>
             </a>
@@ -359,7 +359,7 @@
             <a href="https://www.instagram.com/coresaopaulo/?hl=pt-br" target="_blank">
               <div class="row nomargin">
                 <div class="align-self-center">
-                  <img src="{{ asset('img/the-instagram-icon.png') }}" class="inside-img" alt="Instagram | Core-ES">
+                  <img src="{{ asset('img/instagram_novo.png') }}" class="inside-img" alt="Instagram | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
                   <h5 class="normal">Siga-nos no<br class="hide-992" /> Instagram</h5>
@@ -371,7 +371,7 @@
             <a href="https://www.linkedin.com/company/core-saopaulo">
               <div class="row nomargin">
                 <div class="align-self-center">
-                  <img src="{{ asset('img/the-linkedin-logo.png') }}" class="inside-img" alt="LinkedIn | Core-ES">
+                  <img src="{{ asset('img/linkedin_novo.png') }}" class="inside-img" alt="LinkedIn | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
                   <h5 class="normal">Siga-nos no<br class="hide-992" /> LinkedIn</h5>

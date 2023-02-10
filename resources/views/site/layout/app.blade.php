@@ -146,7 +146,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownFiscal">
                       <a href="{{ route('fiscalizacao.mapa') }}" class="dropdown-item">Mapa da fiscalização</a>
                       <a href="{{ route('fiscalizacao.acoesfiscalizacao') }}" class="dropdown-item">Ações da fiscalização</a>
-                      <a href="{{ route('fiscalizacao.espacoContador') }}" class="dropdown-item">Espaço do Contador</a>
+                     <!-- <a href="{{ route('fiscalizacao.espacoContador') }}" class="dropdown-item">Espaço do Contador</a> -->
                       <a href="http://core-es.implanta.net.br/portaltransparencia/#OUV/Home" target="_blank" class="dropdown-item">Denuncie</a>
                       <a href="/sobre-a-fiscalizacao" class="dropdown-item bb-0">Sobre o departamento</a>
                     </div>
@@ -181,7 +181,7 @@
                       <a href="/carta-de-servicos-ao-usuario" class="dropdown-item">Carta de Serviços ao Usuário</a>
                       <a href="/consulta-de-situacao" class="dropdown-item">Consulta de Situação</a>
                       <a href="/cursos" class="dropdown-item">Cursos</a>
-                      <a href="/downloads" class="dropdown-item">Downloads</a>
+                      <!-- <a href="/downloads" class="dropdown-item">Downloads</a> -->
                       <a href="/programa-de-incentivos" class="dropdown-item">Programa de Incentivos</a>
                       <a href="/simulador" class="dropdown-item bb-0">Simulador de Valores</a>
                     </div>
@@ -193,7 +193,7 @@
                     <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownImprensa" role="button" data-toggle="dropdown">Imprensa</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownImprensa">
                       <a href="{{ route('noticias.siteGrid') }}" class="dropdown-item">Notícias</a>
-                      <a href="/informativos" class="dropdown-item">Informativos</a>
+                     <!-- <a href="/informativos" class="dropdown-item">Informativos</a> -->
                       <a href="/blog" class="dropdown-item">Blog</a>
                       <a href="https://www.confere.org.br/revista.php" target="_blank" class="dropdown-item bb-0">Revistas</a>
                       {{--<a href="#" class="dropdown-item bb-0">Artigos</a>--}}
@@ -264,20 +264,13 @@
               </div>
               <p class="branco mb-1">
                 <strong>SEDE</strong>
-                <br />Av. Brigadeiro Luís Antônio, 613
-                <br />5º andar - CEP: 01317-000
-                <br />Bela Vista - São Paulo - SP
+                <br />Rua Desembargador Sampaio, 40
+                <br />8º andar - CEP: 29055-570
+                <br />Praia do Canto - Vitória/ES
               </p>
               <br />
               <p class="branco mb-1">
-                <strong>UNIDADE ADMINISTRATIVA ALAMEDA SANTOS</strong>
-                <br />Alameda Santos, 1787
-                <br />Cj. 61 - CEP: 01419-906
-                <br />Cerqueira César - São Paulo - SP
-              </p>
-              <br />
-              <p class="branco mb-1">
-                CNPJ: 60.746.179/0001-52
+                CNPJ: 28.167.864/0001-11
               </p>
               <div class="footer-title w-75 mb-3 mt-4">
                 <h5 class="branco">Contato</h5>
@@ -288,7 +281,7 @@
               </p>
               <p class="branco">
                 <strong>Telefone:</strong>
-                <br />(11) 3243-5500 / 5519
+                <br />(27) 3223-3502
               </p>
             </div>
             <div class="col-md-4">
@@ -300,9 +293,9 @@
                   <img src="{{ asset('img/logoConfere.png') }}" alt="CONFERE">
                 </a>
               </div>
-              <div class="footer-title w-75 mb-3 mt-4">
+           <!--   <div class="footer-title w-75 mb-3 mt-4">
                 <h5 class="branco">Serviços</h5>
-              </div>
+              </div> 
               <p class="branco"><a href="/agendamento">Agendamento</a></p>
               <p class="branco"><a href="/anuidade-ano-vigente">Anuidade {{ date('Y') }}</a></p>
               <p class="branco"><a href="/representante/login">Área Restrita</a></p>
@@ -314,8 +307,8 @@
               <p class="branco"><a href="/downloads">Downloads</a></p>
               <p class="branco"><a href="/politica-de-privacidade">Política de Privacidade</a></p>
               <p class="branco"><a href="/programa-de-incentivos">Programa de Incentivos</a></p>
-              <p class="branco"><a href="/simulador">Simulador de Valores</a></p>
-            </div>
+              <p class="branco"><a href="/simulador">Simulador de Valores</a></p> -->
+            </div> 
             <div class="col-md-4">
               <div class="footer-title w-75 mb-3 mt-4-768">
                 <h5 class="branco">Transparência</h5>
@@ -326,7 +319,7 @@
                 </a>
               </div>
               <div class="footer-title w-75 mb-3 mt-4">
-                <h5 class="branco">Newsletter</h5>
+             <!--   <h5 class="branco">Newsletter</h5>
               </div>
               <div class="w-75">
                 <p class="branco">Inscreva-se para receber nossos informativos:</p>
@@ -395,7 +388,7 @@
                     <button type="submit" class="btn btn-default">Inscrever-se</button>
                   </div>
                 </form>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>

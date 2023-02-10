@@ -49,7 +49,7 @@
 
                 <p>Preencha o formulário abaixo para solicitar a inclusão de sua(s) vaga(s) no <strong>Balcão de Oportunidades</strong> do <strong>Core-ES.</strong></p>
                 <p>A(s) vaga(s) será(ão) disponibilizada(s) após análise, que ocorrerá em até 10 (dez) dias corridos após recebimento da vaga, e permanecerá pelo prazo de até 90 (noventa) dias - após este período o status da(s) vaga(s) passará de "Em andamento" para "Concluído".</p>
-                <p>Para mais esclarecimentos, entre em contato conosco através do email <strong>assessoria.presidencia@core-es.org.br</strong>.</p>
+                <p>Para mais esclarecimentos, entre em contato conosco.</p>
                 <h4>Informações da Empresa</h4>
                 <form method="POST" class="w-100 simulador">
                     @csrf

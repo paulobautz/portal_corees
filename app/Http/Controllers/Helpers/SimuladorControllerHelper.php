@@ -58,11 +58,11 @@ class SimuladorControllerHelper extends Controller
                 <li>Comprovante de Residência recente de no máximo 03 meses em nome do representante. (Em caso de comprovante em nome de terceiros, o representante deve anexar uma declaração de próprio punho, informando que reside no endereço do comprovante apresentado, assinar e datar, além de enviar cópia do Comprovante em nome de Terceiros.);</li>
                 <li>Comprovante de quitação com o serviço militar, para os profissionais do sexo masculino que tenham até 45 anos (exceto estrangeiro);</li>
                 <li>Prova de estar em dia com as obrigações eleitorais - certidão de quitação eleitoral (site www.tse.jus.br >serviços ao eleitor>certidão de quitação eleitoral); (exceto estrangeiro);</li>
-                <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009. (www.sircesp.com.br); <small><strong>(caráter facultativo)</strong></small></li>
+                <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009.; <small><strong>(caráter facultativo)</strong></small></li>
             </ol>
             <p>OBS. Se o registro for requerido através de terceiros será necessário apresentar procuração especifica para realizar o registro no Core-ES, dando poderes para representá-lo, e cópia do documento do procurador;</p>
             <strong>Conselho Regional dos Representantes Comerciais no Estado do Espirito Santo</strong>
-            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - Espirito Santo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
+            <p>Rua Desembargador Sampaio, 40 - CEP 29055-250 - Espirito Santo<br />Fone: (27) 3223-3502<br />Atendimento de 2ª à 6ª feiras - das 9h às 16:30h<br />Email: atendimento@core-es.org.br</p>
         ';
     }
 
@@ -80,11 +80,11 @@ class SimuladorControllerHelper extends Controller
                 <li>Comprovante de quitação com o serviço militar, para os profissionais do sexo masculino que tenham até 45 anos (exceto estrangeiro);</li>
                 <li>Prova de estar em dia com as obrigações eleitorais - certidão de quitação eleitoral (site www.tse.jus.br >serviços ao eleitor>certidão de quitação eleitoral); (exceto estrangeiro);</li>
                 <li>Declaração de indicação do responsável técnico assinada por todos os sócios com a concordância do indicado, com reconhecimento de firma; (<a href="https://www.core-es.org.br/arquivos/2019-07/DECLARA%C3%87%C3%83O%20DE%20RT.pdf" class="vermelho" target="_blank">Termo de indicação de Resp. Técnico</a>)</li>
-                <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009. (www.sircesp.com.br); <small><strong>(caráter facultativo)</strong></small></li>
+                <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009.; <small><strong>(caráter facultativo)</strong></small></li>
             </ol>
             <p>OBS. Se o registro for requerido através de terceiros será necessário apresentar procuração especifica para realizar o registro no Core-ES, dando poderes para representá-lo, e cópia do documento do procurador;</p>
             <strong>Conselho Regional dos Representantes Comerciais no Estado do Espirito Santo</strong>
-            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - Espirito Santo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
+            <p>Rua Desembargador Sampaio, 40 - CEP 29055-250 - Espirito Santo<br />Fone: (27) 3223-3502<br />Atendimento de 2ª à 6ª feiras - das 9h às 16:30h<br />Email: atendimento@core-es.org.br</p>
         ';
     }
 
@@ -98,7 +98,7 @@ class SimuladorControllerHelper extends Controller
                 <li>Contrato social e alterações contratuais consolidadas devidamente registradas no órgão competente e inscrição no CNPJ;</li>
                 <li>Carteira de Identidade, CNH (data de expedição -10 anos), e ou RNE para estrangeiros de todos os sócios;</li>
                 <li>Comprovante de residência recente (máximo 03 meses), de todos os sócios, em caso de comprovante em nome de terceiros, o representante deverá anexar uma declaração de próprio punho, informando que reside no endereço do comprovante apresentado, assinar e datar;</li>
-                <li>Quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009 (www.sircesp.com.br); <small><strong>(caráter facultativo)</strong></small></li>
+                <li>Quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009; <small><strong>(caráter facultativo)</strong></small></li>
                 <li>Declaração de indicação do responsável técnico assinada por todos os sócios com a concordância do indicado, com reconhecimento de firma;</li>
                 <li>Alvará de localização e inscrição ISS;</li>
             </ol>
@@ -110,11 +110,11 @@ class SimuladorControllerHelper extends Controller
                 <li>Comprovante de quitação com o serviço militar, para os profissionais do sexo masculino que tenham até 45 anos (exceto estrangeiro);</li>
                 <li>Prova de estar em dia com as obrigações eleitorais - certidão de quitação eleitoral (site www.tse.jus.br >serviços ao eleitor>certidão de quitação eleitoral); (exceto estrangeiro);</li>
                 <li>Declaração de indicação do responsável técnico assinada por todos os sócios com a concordância do indicado, com reconhecimento de firma; (<a href="https://www.core-es.org.br/arquivos/2019-07/DECLARA%C3%87%C3%83O%20DE%20RT.pdf" class="vermelho" target="_blank">Termo de indicação de Resp. Técnico</a>)</li>
-                <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009. (www.sircesp.com.br); <small><strong>(caráter facultativo)</strong></small></li>
+                <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009.; <small><strong>(caráter facultativo)</strong></small></li>
             </ol>
             <p>OBS. Se o registro for requerido através de terceiros será necessário apresentar procuração especifica para realizar o registro no Core-ES, dando poderes para representá-lo, e cópia do documento do procurador;</p>
             <strong>Conselho Regional dos Representantes Comerciais no Estado do Espirito Santo</strong>
-            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - Espirito Santo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
+            <p>Rua Desembargador Sampaio, 40 - CEP 29055-250 - Espirito Santo<br />Fone: (27) 3223-3502<br />Atendimento de 2ª à 6ª feiras - das 9h às 16:30h<br />Email: atendimento@core-es.org.br</p>
         ';
     }
 
@@ -128,12 +128,12 @@ class SimuladorControllerHelper extends Controller
                 <li>Contrato social e alterações contratuais consolidadas devidamente registradas no órgão competente e inscrição no CNPJ;</li>
                 <li>Documento de identidade (RG) e CPF responsável;</li>
                 <li>Comprovante de residência recente (no máximo 03 meses), de todos os sócios, em caso de comprovante em nome de terceiros, o representante deverá anexar uma declaração de próprio punho, informando que reside no endereço do comprovante apresentado, assinar e datar;</li>
-                <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009. (www.sircesp.com.br); <small><strong>(caráter facultativo)</strong></small></li>
+                <li>Cópia da quitação das contribuições devidas ao Sindicato conforme artigo 579 e 608 da CLT e nota técnica da Secretaria de Relações do Trabalho (SRT) nº 202 de 10 de dezembro de 2009.; <small><strong>(caráter facultativo)</strong></small></li>
                 <li>Alvará de localização e inscrição ISS;</li>
             </ol>
             <p>OBS. Se o registro for requerido através de terceiros será necessário apresentar procuração especifica para realizar o registro no Core-ES, dando poderes para representá-lo, e cópia do documento do procurador;</p>
             <strong>Conselho Regional dos Representantes Comerciais no Estado do Espirito Santo</strong>
-            <p>Av. Brigadeiro Luis Antonio, 613 - CEP 01317-000 - Espirito Santo<br />SARC: (11) 3243-5519 - Fone: (11) 3243-5500<br />Atendimento de 2ª à 6ª feiras - das 9h às 18h<br />Horário de registro - das 9h às 15h30<br />Email: atendimento@core-es.org.br</p>
+            <p>Rua Desembargador Sampaio, 40 - CEP 29055-250 - Espirito Santo<br />Fone: (27) 3223-3502<br />Atendimento de 2ª à 6ª feiras - das 9h às 16:30h<br />Email: atendimento@core-es.org.br</p>
         ';
     }
 }
