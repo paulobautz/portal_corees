@@ -128,7 +128,7 @@
                     <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownCore" role="button" data-toggle="dropdown">Core-ES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownCore">
                       <a href="/concursos" class="dropdown-item">Concursos</a>
-                      <a href="/conselho" class="dropdown-item">Conselho</a>
+                      <!-- <a href="/conselho" class="dropdown-item">Conselho</a> -->
                       <a href="/institucional" class="dropdown-item">Institucional</a>
                       <a href="/legislacao" class="dropdown-item">Legislação</a>
                       <a href="/missao-visao-e-valores" class="dropdown-item">Missão, Visão e Valores</a>
@@ -204,7 +204,7 @@
             </div>
           </div>
         </div>
-        <a href="/servicos-atendimento-ao-rc">
+        <a href="https://core-es.implanta.net.br/portaltransparencia/#publico/PerguntasFrequentes">
           <div class="container-fluid azul-claro-bg pt-2 pb-2">
             <div class="row">
                 <div class="container">
