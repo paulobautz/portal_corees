@@ -1,7 +1,7 @@
-@extends('site.layout.app', ['title' => 'Conselho Regional dos Representantes Comerciais do Estado de São Paulo'])
+@extends('site.layout.app', ['title' => 'Conselho Regional dos Representantes Comerciais no Estado do Espirito Santo'])
 
 @section('description')
-  <meta name="description" content="O Core-ES é responsável pela consulta, orientação, disciplina e fiscalização do exercício da profissão de Representação Comercial no estado de São Paulo.">
+  <meta name="description" content="O Core-ES é responsável pela consulta, orientação, disciplina e fiscalização do exercício da profissão de Representação Comercial no estado do Espirito Santo.">
 @endsection
 
 @section('content')
@@ -35,8 +35,8 @@
             <div class="carousel-item h-100">
             @endif
               <a href="{{ $img->link }}" target="{{ $img->target }}">
-                <img class="w-100 hide-576" src="{{ asset($img->url) }}" alt="Core-ES | Conselho Regional dos Representantes Comercias do Estado de São Paulo" />
-                <img class="w-100 show-576" src="{{ asset($img->url_mobile) }}" alt="Core-ES | Conselho Regional dos Representantes Comercias do Estado de São Paulo" />
+                <img class="w-100 hide-576" src="{{ asset($img->url) }}" alt="Core-ES | Conselho Regional dos Representantes Comercias no Estado do Espirito Santo" />
+                <img class="w-100 show-576" src="{{ asset($img->url_mobile) }}" alt="Core-ES | Conselho Regional dos Representantes Comercias no Estado do Espirito Santo" />
               </a>
             </div>
           @endif

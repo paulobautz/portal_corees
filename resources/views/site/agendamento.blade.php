@@ -40,14 +40,9 @@
           <p class="pb-0 text-justify">
             <strong>Representante Comercial</strong>, agende seu atendimento presencial no Core-ES, com até um mês de antecedência.<br />Ou então, consulte as <a href="{{ route('agendamentosite.consultaView') }}" class="text-primary">informações do atendimento já agendado.</a>
             </br></br>
-            <strong>Atenção:</strong> Orientação jurídica – dúvidas deverão ser enviadas para o e-mail juridico@core-es.org.br, que serão respondidas em até 5 (cinco) dias úteis, conforme PORTARIA 27/2020. Não há atendimento jurídico presencial, excepcionalmente, nesse período de pandemia.
+            <strong>Atenção:</strong> Orientação jurídica – dúvidas deverão ser enviadas para o e-mail juridico@core-es.org.br.
             </br></br>
-            O parcelamento de anuidades em Execução Fiscal só será realizado pelo atendimento presencialmente, se houver o contato via e-mail com o setor de Dívida Ativa (<a href="mailto:juridico.dividaativa@core-es.org.br">juridico.dividaativa@core-es.org.br</a>) previamente para solicitação dos valores de custas processuais e honorários advocatícios, caso haja.
           </p>
-          
-          <div class="mb-3">
-            <a href="https://www.saopaulo.sp.gov.br/planosp/" target="_blank"><img src="{{ asset('img/icone-mapasp.png') }}"></a>
-          </div>
         </div>
         <div class="mt-2">
         @if(session('message'))

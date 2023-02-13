@@ -9,7 +9,7 @@
         @if (View::hasSection('description'))
           @yield('description')
         @else
-          <meta name="description" content="O Core-ES é responsável pela consulta, orientação, disciplina e fiscalização do exercício da profissão de Representação Comercial no estado de São Paulo.">
+          <meta name="description" content="O Core-ES é responsável pela consulta, orientação, disciplina e fiscalização do exercício da profissão de Representação Comercial no estado do Espirito Santo.">
         @endif
 
         <title>Core-ES — {{ $title }}</title>
@@ -23,15 +23,24 @@
         @yield('meta')
 
         @if(strstr(request()->getHttpHost(), 'core-es.org.br'))
-          <!-- Global site tag (gtag.js) - Google Analytics
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141375220-1"></script>
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-74ZJ4H0FW8"></script>
           <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'UA-141375220-1');
-          </script> -->
+            gtag('config', 'G-74ZJ4H0FW8');
+          </script> 
+        <!-- Microsoft Clarity -->
+        <script type="text/javascript">
+            (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "f71yaxpuhi");
+        </script>
+        
         @endif
        <!-- {!! mostraChatScript() !!} -->
     </head>
@@ -139,7 +148,7 @@
                     <a href="http://core-es.implanta.net.br/portaltransparencia/#publico/inicio" class="nav-link" target="_blank">Transparência</a>
                   </li>
                   <li class="nav-item">
-                    <a href="/prestacao-de-contas-do-core-es" class="nav-link">Prestação de Contas</a>
+                 <!--   <a href="/prestacao-de-contas-do-core-es" class="nav-link">Prestação de Contas</a> -->
                   </li>
                   <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownFiscal" role="button" data-toggle="dropdown">Fiscalização</a>

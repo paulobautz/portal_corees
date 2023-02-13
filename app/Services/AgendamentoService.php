@@ -40,7 +40,7 @@ class AgendamentoService implements AgendamentoServiceInterface {
             'busca' => 'agendamentos/bloqueios',
         ];
 
-        $this->renameSede = 'São Paulo - Avenida Brigadeiro Luís Antônio';
+        $this->renameSede = 'SEDE - Praia do Canto';
     }
 
     private function status()
