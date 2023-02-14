@@ -60,14 +60,14 @@
                             @endif
                         </div>
                         <div class="col-sm mb-2-576">
-                            <label for="registro_core">Registro no Core-ES *</label>
+                            <label for="registro_core">Registro no Core-ES* (Ex: 00XXXXX/XXXX)</label>
                             <input
                                 type="text"
                                 name="registro_core"
                                 class="form-control {{ $errors->has('registro_core') ? 'is-invalid' : '' }}"
                                 id="registro_core"
                                 value="{{ old('registro_core') }}"
-                                placeholder="?99999/9999"
+                                placeholder="00XXXXX/XXXX"
                             >
                             @if($errors->has('registro_core'))
                                 <div class="invalid-feedback">

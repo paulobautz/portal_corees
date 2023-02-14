@@ -322,7 +322,7 @@ class RepresentanteSiteController extends Controller
 
         event(new ExternoEvent('Usuário ' . Auth::guard('representante')->user()->id . ' ("'. Auth::guard('representante')->user()->registro_core .'") solicitou mudança no endereço de correspondência.'));
 
-        Mail::to(['desenvolvimento@core-es.org.br', 'atendimento.adm@core-es.org.br'])->queue(new SolicitacaoAlteracaoEnderecoMail($save->id));
+        Mail::to(['ti@core-es.org.br', 'registro@core-es.org.br'])->queue(new SolicitacaoAlteracaoEnderecoMail($save->id));
 
         return redirect()
             ->route('representante.enderecos.view')

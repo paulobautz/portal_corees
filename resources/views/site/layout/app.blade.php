@@ -24,13 +24,13 @@
 
         @if(strstr(request()->getHttpHost(), 'core-es.org.br'))
           <!-- Global site tag (gtag.js) - Google Analytics -->
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-74ZJ4H0FW8"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSQKRK3VRD"></script>
           <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-74ZJ4H0FW8');
+            gtag('config', 'G-TSQKRK3VRD');
           </script> 
         <!-- Microsoft Clarity -->
         <script type="text/javascript">
@@ -40,6 +40,14 @@
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             })(window, document, "clarity", "script", "f71yaxpuhi");
         </script>
+        
+        <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-PKPHG8C');</script>
+        <!-- End Google Tag Manager -->
         
         @endif
        <!-- {!! mostraChatScript() !!} -->

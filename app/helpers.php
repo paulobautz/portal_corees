@@ -773,7 +773,7 @@ function perfisPermitidos($nameController, $metodo)
 function perfisPermitidosMenu()
 {
     return Permissao::select('idpermissao', 'perfis')->whereIn('idpermissao', [
-        1, 3, 4, 7, 8, 11, 12, 19, 23, 27, 29, 33, 34, 37, 38, 42, 43, 45, 47, 48, 50, 51, 53, 54, 57, 59, 61, 63
+        5, 15, 22, 20, 17, 25, 12, 35, 40, 45, 50, 55, 52, 60, 57, 70, 75, 80, 85, 72, 90, 87, 95, 92, 100, 105, 110, 115
         ])
     ->get()
     ->each(function ($item, $key) {

@@ -41,11 +41,8 @@ class Kernel extends ConsoleKernel
         $schedule->call(function() {
             $users = User::select('email','idregional','idperfil')
                 ->where('idperfil', 1)
-                ->orWhere('idperfil', 6)
-                ->orWhere('idperfil', 8)
-                ->orWhere('idperfil', 12)
-                ->orWhere('idperfil', 13)
-                ->orWhere('idperfil', 21)
+                ->orWhere('idperfil', 2)
+                ->orWhere('idperfil', 3)
                 ->orderBy('idperfil')
                 ->get();
 
@@ -115,8 +112,7 @@ class Kernel extends ConsoleKernel
         // Rotina para envio de relatório de solicitações de cédula feitas no dia anterior
         $schedule->call(function() {
             $users = User::where('idperfil', 1)
-                ->orWhere('idusuario', 54)
-                ->orWhere('idusuario', 77)
+                ->orWhere('idperfil', 2)
                 ->get();
             $hoje = date('Y-m-d');
             $ontem = Carbon::yesterday()->toDateString();

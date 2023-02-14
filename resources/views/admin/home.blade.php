@@ -117,7 +117,7 @@
 			</div>
 		</div>
 	  </div>
-	  @if(in_array(auth()->user()->idperfil, [1, 6, 8, 10, 12, 13, 18, 21]))
+	  @if(in_array(auth()->user()->idperfil, [1, 2, 3]))
 	  <div class="col">
 		<div class="card card-info">
 		  <div class="card-header">
