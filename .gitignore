@@ -16,3 +16,6 @@ public/img/Thumbs.db
 *.xml
 app/Connections/FirebirdConnection.php
 app/Repositories/GerentiApiRepository.php
+*.json
+config/database.php
+resources/views/admin/crud/editar.blade.php
