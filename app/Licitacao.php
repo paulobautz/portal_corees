@@ -15,23 +15,24 @@ class Licitacao extends Model
     protected $guarded = [];
 
     // Modalidades de licitação
-    const MOD_CARTA_CONVITE = 'Carta Convite';
-    const MOD_CONCORRENCIA = 'Concorrência - Lei 14.133/2021';
-    const MOD_CONCORRECIA_PUBLICA = 'Concorrência Pública';
-    const MOD_CONCURSO = 'Concurso';
-    const MOD_CONCURSO_LEI2021 = 'Concurso - Lei 14.133/2021';
-    const MOD_COTACAO_ELETRONICA = 'Cotação Eletrônica';
-    const MOD_CREDENCIAMENTO = 'Credenciamento';
-    const MOD_DIALOGO = 'Diálogo Competitivo - Lei 14.133/2021';
+    //const MOD_CARTA_CONVITE = 'Carta Convite';
+    //const MOD_CONCORRENCIA = 'Concorrência - Lei 14.133/2021';
+    //const MOD_CONCORRECIA_PUBLICA = 'Concorrência Pública';
+    //const MOD_CONCURSO = 'Concurso';
+    //const MOD_CONCURSO_LEI2021 = 'Concurso - Lei 14.133/2021';
+    //const MOD_COTACAO_ELETRONICA = 'Cotação Eletrônica';
+    //const MOD_CREDENCIAMENTO = 'Credenciamento';
+    //const MOD_DIALOGO = 'Diálogo Competitivo - Lei 14.133/2021';
+    const MOD_DISPENSA_ELETRONICA_8666 = 'Dispensa - Lei 8.666/1993';
     const MOD_DISPENSA_ELETRONICA = 'Dispensa Eletrônica - Lei 14.133/2021';
-    const MOD_INEXIGIBILIDADE = 'Inexigibilidade - Lei 14.133/2021';
-    const MOD_LEILAO = 'Leilão';
-    const MOD_LEILAO_LEI2021 = 'Leilão - Lei 14.133/2021';
-    const MOD_PREGAO = 'Pregão - Lei 14.133/2021';
-    const MOD_PREGAO_ELETRONICO_SRP = 'Pregão Eletrônico SRP';
-    const MOD_PREGAO_ELETRONICO_TRADICIONAL = 'Pregão Eletrônico Tradicional';
-    const MOD_PREGAO_PRESENCIAL = 'Pregão Presencial';
-    const MOD_TOMADA_DE_PRECOS = 'Tomada de Preços';
+    const MOD_INEXIGIBILIDADE = 'Inexigibilidade';
+    //const MOD_LEILAO = 'Leilão';
+    //const MOD_LEILAO_LEI2021 = 'Leilão - Lei 14.133/2021';
+    //const MOD_PREGAO = 'Pregão - Lei 14.133/2021';
+    //const MOD_PREGAO_ELETRONICO_SRP = 'Pregão Eletrônico SRP';
+    const MOD_PREGAO_ELETRONICO_TRADICIONAL = 'Licitações';
+    //const MOD_PREGAO_PRESENCIAL = 'Pregão Presencial';
+    //const MOD_TOMADA_DE_PRECOS = 'Tomada de Preços';
 
     // Situações de licitação
     const SIT_ABERTO = 'Aberto';
@@ -60,23 +61,24 @@ class Licitacao extends Model
     public static function modalidadesLicitacao()
     {
         return [
-            Licitacao::MOD_CARTA_CONVITE,
-            Licitacao::MOD_CONCORRENCIA,
-            Licitacao::MOD_CONCORRECIA_PUBLICA,
-            Licitacao::MOD_CONCURSO,
-            Licitacao::MOD_CONCURSO_LEI2021,
-            Licitacao::MOD_COTACAO_ELETRONICA,
-            Licitacao::MOD_CREDENCIAMENTO,
-            Licitacao::MOD_DIALOGO,
+            //Licitacao::MOD_CARTA_CONVITE,
+            //Licitacao::MOD_CONCORRENCIA,
+            //Licitacao::MOD_CONCORRECIA_PUBLICA,
+            //Licitacao::MOD_CONCURSO,
+            //Licitacao::MOD_CONCURSO_LEI2021,
+            //Licitacao::MOD_COTACAO_ELETRONICA,
+            //Licitacao::MOD_CREDENCIAMENTO,
+            //Licitacao::MOD_DIALOGO,
+            Licitacao::MOD_DISPENSA_ELETRONICA_8666,
             Licitacao::MOD_DISPENSA_ELETRONICA,
             Licitacao::MOD_INEXIGIBILIDADE,
-            Licitacao::MOD_LEILAO,
-            Licitacao::MOD_LEILAO_LEI2021,
-            Licitacao::MOD_PREGAO,
-            Licitacao::MOD_PREGAO_ELETRONICO_SRP,
+            //Licitacao::MOD_LEILAO,
+            //Licitacao::MOD_LEILAO_LEI2021,
+            //Licitacao::MOD_PREGAO,
+            //Licitacao::MOD_PREGAO_ELETRONICO_SRP,
             Licitacao::MOD_PREGAO_ELETRONICO_TRADICIONAL,
-            Licitacao::MOD_PREGAO_PRESENCIAL,
-            Licitacao::MOD_TOMADA_DE_PRECOS
+            //Licitacao::MOD_PREGAO_PRESENCIAL,
+            //Licitacao::MOD_TOMADA_DE_PRECOS
         ];
     }
 

@@ -282,6 +282,15 @@ Route::prefix('/')->group(function() {
   Route::get('agendamento-consulta/busca', 'AgendamentoSiteController@consulta')->name('agendamentosite.consulta');
   Route::put('agendamento-consulta/busca', 'AgendamentoSiteController@cancelamento')->name('agendamentosite.cancelamento');
   Route::get('regionais-plantao-juridico', 'AgendamentoSiteController@regionaisPlantaoJuridico')->name('agendamentosite.regionaisPlantaoJuridico');
+    
+  // Analise
+  Route::get('/analise', function () {
+    return view('/site/analise');
+});
+    
+  //ProtocoloOnline
+  Route::get('protocolo', 'ProtocoloOnlineController@index')->name('protocoloonline.index');
+  Route::get('protocolo/busca', 'ProtocoloOnlineController@buscaProtocolo')->name('protocoloonline.buscaProtocolo');
 
   // Newsletter
   Route::post('newsletter', 'NewsletterController@store');

@@ -473,9 +473,9 @@ class AgendamentoService implements AgendamentoServiceInterface {
         // Enquanto não possui o UserService
         $idregional = auth()->user()->idregional;
         $atendentes = \App\User::select('idusuario', 'nome', 'idperfil')
-            ->whereIn('idperfil', [4, 6, 10, 12, 13, 18])
+            ->whereIn('idperfil', [2, 3])
             ->orWhere(function($query) use($idregional) {
-                $query->whereIn('idperfil', [8, 21])
+                $query->whereIn('idperfil', [2, 3])
                 ->where('idregional', $idregional);
             })
             ->orderBy('nome')

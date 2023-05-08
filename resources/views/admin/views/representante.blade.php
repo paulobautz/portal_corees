@@ -131,7 +131,7 @@
                                                     <td>
                                                         {{ $cobranca['DESCRICAO'] }} ⋅ {!! secondLine($cobranca['SITUACAO'], $cobranca['VENCIMENTOBOLETO'], $cobranca['LINK'], $cobranca['DESCRICAO'], $cobranca['BOLETO']) !!}
                                                     </td>
-                                                    <td>R$ {{ toReais($cobranca['VALOR']) }}</td>
+                                                    <td>R$ {{ toReais($cobranca['TOTAL']) }}</td>
                                                 </tr>
                                             @endforeach
                                         </tbody>
@@ -163,7 +163,7 @@
                                                     <td>
                                                         {{ $cobranca['DESCRICAO'] }} ⋅ {!! secondLine($cobranca['SITUACAO'], $cobranca['VENCIMENTOBOLETO'], $cobranca['LINK'], $cobranca['DESCRICAO'], $cobranca['BOLETO']) !!}
                                                     </td>
-                                                    <td>R$ {{ toReais($cobranca['VALOR']) }}</td>
+                                                    <td>R$ {{ toReais($cobranca['TOTAL']) }}</td>
                                                 </tr>
                                             @endforeach
                                         </tbody>

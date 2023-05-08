@@ -145,11 +145,12 @@
                     <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownCore" role="button" data-toggle="dropdown">Core-ES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownCore">
                       <a href="/concursos" class="dropdown-item">Concursos</a>
-                      <!-- <a href="/conselho" class="dropdown-item">Conselho</a> -->
+                      <a href="/conselho" class="dropdown-item">Conselho</a>
                       <a href="/institucional" class="dropdown-item">Institucional</a>
                       <a href="/legislacao" class="dropdown-item">Legislação</a>
                       <a href="/missao-visao-e-valores" class="dropdown-item">Missão, Visão e Valores</a>
-                      <a href="/politica-de-privacidade" class="dropdown-item bb-0">Política de Privacidade</a>
+                      <a href="/politica-de-privacidade" class="dropdown-item">Política de Privacidade</a>
+                      <a href="/eleicoes" class="dropdown-item bb-0">Eleições</a>
                     </div>
                   </li>
                   <li class="nav-item">
@@ -174,17 +175,9 @@
                   <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownServ" role="button" data-toggle="dropdown">Serviços</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownServ">
-                      <div class="sub-dropdown">
-                        <div class="dropdown-item">
-                          Agendamento <i class="fas fa-angle-right hide-768"></i><i class="fas fa-angle-down show-inline-768"></i>
-                        </div>
-                        <div class="sub-dropdown-menu">
-                          <a href="/agendamento" class="dropdown-item">Agendar</a>
-                          <a href="/agendamento-consulta" class="dropdown-item bb-0">Consultar/Cancelar</a>
-                        </div>
-                      </div>
+                      <a href="/agendamento" class="dropdown-item">Agendamento</a>
                       <a href="/anuidade-ano-vigente" class="dropdown-item">Anuidade {{ date('Y') }}</a>
-                      <a href="/representante/login" class="dropdown-item">Área Restrita</a>
+                      <a href="/representante/login" class="dropdown-item">Área do Representante</a>
                       <a href="/servicos-atendimento-ao-rc" class="dropdown-item">Atendimento</a>
                       <div class="sub-dropdown">
                         <div class="dropdown-item">

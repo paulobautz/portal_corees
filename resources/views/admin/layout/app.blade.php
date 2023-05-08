@@ -11,6 +11,14 @@
 
         <link type="text/css" href="{{ asset('/css/app.css') }}" rel="stylesheet">
         <link type="text/css" href="{{ asset('/css/custom.css') }}" rel="stylesheet">
+                <!-- Microsoft Clarity -->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "fu5nkr7evi");
+</script>
     </head>
     <body class="hold-transition sidebar-mini">
 

@@ -96,7 +96,7 @@ class InternoAgendamentoMail extends Mailable
     {
         if(in_array($this->user->idperfil, [8]))
             $body = $this->topBottomTabela($this->conteudoSemDados());
-        elseif(in_array($this->user->idperfil, [1, 6, 12, 13, 21]))
+        elseif(in_array($this->user->idperfil, [1, 2, 3]))
             $body = $this->topBottomTabela($this->conteudoComDados());
 
         $this->body = $body;

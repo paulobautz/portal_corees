@@ -1,5 +1,12 @@
 @extends('site.layout.app', ['title' => 'Área do Representante'])
-
+        <!-- Microsoft Clarity -->
+        <script type="text/javascript">
+            (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "f71yaxpuhi");
+        </script>
 @section('content')
 
 <section id="pagina-cabecalho">
@@ -90,7 +97,7 @@
                 <h6 class="brancar"><i class="fas fa-file-invoice"></i>&nbsp;&nbsp;Simulador Refis</h6>
               </a>
             </div> --}}
-
+            <!--
             <div class="mr-item bt-unset {{ (Route::currentRouteName() === 'representante.solicitarCedulaView')  ? 'mr-item-selected' : '' }}">
               <a href="{{ route('representante.solicitarCedulaView') }}" onclick="showLoading()">
                 <h6 class="brancar">
@@ -100,7 +107,7 @@
                 </h6>
               </a>
             </div>
-
+            -->
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ class Agendamento extends Model
 
     const SERVICOS_ATUALIZACAO_DE_CADASTRO = "Atualização de Cadastro";
     const SERVICOS_CANCELAMENTO_DE_REGISTRO = "Cancelamento de Registro";
-    const SERVICOS_PLANTAO_JURIDICO = "Plantão Jurídico";
+    const SERVICOS_PLANTAO_JURIDICO = "Atendimento Jurídico";
     const SERVICOS_REFIS = "Refis";
     const SERVICOS_REGISTRO_INICIAL = "Registro Inicial";
     const SERVICOS_OUTROS = "Outros";

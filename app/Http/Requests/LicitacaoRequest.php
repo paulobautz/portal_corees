@@ -36,7 +36,6 @@ class LicitacaoRequest extends FormRequest
             return [
                 'palavrachave' => 'nullable|max:191',
                 'modalidade' => 'nullable|in:' . implode(',', $this->service->getModalidades()),
-                'nrlicitacao' => 'nullable|' . $this->regraRegexBusca,
                 'nrprocesso' => 'nullable|' . $this->regraRegexBusca,
                 'situacao' => 'nullable|in:' . implode(',', $this->service->getSituacoes()),
                 'datarealizacao' => 'nullable|date',
@@ -48,7 +47,7 @@ class LicitacaoRequest extends FormRequest
             'edital' => 'max:191',
             'modalidade' => 'required|in:' . implode(',', $this->service->getModalidades()),
             'titulo' => 'required|max:191',
-            'nrlicitacao' => 'required|' . $this->regraRegex,
+            'nrlicitacao' => '',
             'nrprocesso' => 'required|' . $this->regraRegex,
             'situacao' => 'required|in:' . implode(',', $this->service->getSituacoes()),
             'objeto' => 'required',

@@ -8,6 +8,7 @@
         <div class="linha-lg-mini mb-3"></div>
         <p>Verifique abaixo a lista de cobranças vigentes junto ao Core-ES, sendo certo que <strong>só será possível imprimir boletos dentro do prazo de vencimento</strong>. Demais pendências, fora do prazo de vencimento, deverão ser regularizadas na sede ou em uma das Seccionais do Core-ES, pessoalmente, ou pelo email <strong>financeiro@core-es.org.br</strong></p>
         <h5 class="mt-0 mb-2"><i class="fas fa-level-up-alt rotate-90"></i>&nbsp;&nbsp;ANUIDADES</h5>
+        <p></p>
         @if (!empty($cobrancas['anuidades']))
             <table class="table table-bordered bg-white mb-0">
                 <thead>
@@ -22,7 +23,7 @@
                             <td class="ls-meio-neg">
                                 {{ $cobranca['DESCRICAO'] }} ⋅ {!! secondLine($cobranca['SITUACAO'], $cobranca['VENCIMENTOBOLETO'], $cobranca['LINK'], $cobranca['DESCRICAO'], $cobranca['BOLETO']) !!}
                             </td>
-                            <td class="ls-meio-neg">R$ {{ toReais($cobranca['VALOR']) }}</td>
+                            <td class="ls-meio-neg">R$ {{ toReais($cobranca['TOTAL']) }}</td>
                         </tr>
                     @endforeach
                 </tbody>
@@ -47,7 +48,7 @@
                             <td class="ls-meio-neg">
                                 {{ $cobranca['DESCRICAO'] }} ⋅ {!! secondLine($cobranca['SITUACAO'], $cobranca['VENCIMENTOBOLETO'], $cobranca['LINK'], $cobranca['DESCRICAO']) !!}
                             </td>
-                            <td class="ls-meio-neg">R$ {{ toReais($cobranca['VALOR']) }}</td>
+                            <td class="ls-meio-neg">R$ {{ toReais($cobranca['TOTAL']) }}</td>
                         </tr>
                     @endforeach
                 </tbody>

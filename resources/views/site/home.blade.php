@@ -155,20 +155,21 @@
           </div>
         </a>
       </div>
-      <div class="col-lg-3 col-sm-6 pb-15">
-        <div class="box text-center azul-escuro-bg">
-          <div class="inside-box">
-            <img src="{{ asset('img/appointment.png') }}" class="inside-img" alt="Agendamento | Core-ES" />
-            <h3 class="text-uppercase mt-3 branco light h3-box mb-3">Agendamento<br class="hide-992" /> de Atendimento</h3>
-            <a href="/agendamento" class="d-inline h-100">
-              <button class="btn-box azul-escuro">Agendar</button>
-            </a>
-            <a href="/agendamento-consulta" class="d-inline h-100">
-              <button class="btn-box btn-box-little azul-escuro">Consultar</button>
-            </a>
+
+                                                                
+       <div class="col-lg-3 col-sm-6 pb-15">
+        <a href="/agendamento" class="d-block h-100">
+          <div class="box text-center azul-escuro-bg">
+            <div class="inside-box">
+              <img src="{{ asset('img/appointment.png') }}" class="inside-img" alt="AGENDAMENTO DE ATENDIMENTO" />
+              <h3 class="text-uppercase mt-3 branco light h3-box mb-3">AGENDAMENTO DE ATENDIMENTO</h3>
+              <button href="#" class="btn-box azul-escuro">ACESSAR</button>
+            </div>
           </div>
-        </div>
-      </div>
+        </a>
+      </div>                                                               
+                                                                
+    
       <div class="col-lg-3 col-sm-6 pb-15">
         <a href="/cartilha-do-representante" class="d-block h-100">
           <div class="box text-center azul-bg">
@@ -318,7 +319,7 @@
                   <img src="{{ asset('img/whatsapp_novo.png') }}" alt="Whatsapp | Core-ES">
                 </div>
                 <div class="flex-one fale-txt align-self-center">
-                  <h5 class="normal">Inicar uma conversa</h5>
+                  <h5 class="normal">Iniciar uma conversa</h5>
                 </div>
               </div>
             </a>
@@ -356,7 +357,7 @@
             </a>
           </div>
           <div class="col-lg-6 faleSingle">
-            <a href="https://www.instagram.com/coresaopaulo/?hl=pt-br" target="_blank">
+            <a href="https://www.instagram.com/core.es.oficial/" target="_blank">
               <div class="row nomargin">
                 <div class="align-self-center">
                   <img src="{{ asset('img/instagram_novo.png') }}" class="inside-img" alt="Instagram | Core-ES">
@@ -368,7 +369,7 @@
             </a>
           </div>
           <div class="col-lg-6 faleSingle">
-            <a href="https://www.linkedin.com/company/core-saopaulo">
+            <a href="https://www.linkedin.com/company/core-es">
               <div class="row nomargin">
                 <div class="align-self-center">
                   <img src="{{ asset('img/linkedin_novo.png') }}" class="inside-img" alt="LinkedIn | Core-ES">

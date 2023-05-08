@@ -91,7 +91,7 @@
                 @endif
                 @if(Session::get('notFound'))
                     <hr>
-                    <strong>Nenhum boleto encontrado para o CPF/CNPJ informado.</strong>
+                    <strong>Erro na consulta, favor entrar em contato por e-mail: registro@core-es.org.br </strong>
                 @endif
             </div>
             <div class="col-lg-4">

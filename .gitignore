@@ -19,3 +19,4 @@ app/Repositories/GerentiApiRepository.php
 *.json
 config/database.php
 resources/views/admin/crud/editar.blade.php
+config/database.php
