@@ -206,6 +206,7 @@
                      <!-- <a href="/informativos" class="dropdown-item">Informativos</a> -->
                       <a href="/blog" class="dropdown-item">Blog</a>
                       <a href="https://www.confere.org.br/revista.php" target="_blank" class="dropdown-item bb-0">Revistas</a>
+                      <a href="/livros" class="dropdown-item">Livros</a> 
                       {{--<a href="#" class="dropdown-item bb-0">Artigos</a>--}}
                     </div>
                   </li>
@@ -275,7 +276,7 @@
               <p class="branco mb-1">
                 <strong>SEDE</strong>
                 <br />Rua Desembargador Sampaio, 40
-                <br />8º andar - CEP: 29055-570
+                <br />8º andar - CEP: 29055-250
                 <br />Praia do Canto - Vitória/ES
               </p>
               <br />
